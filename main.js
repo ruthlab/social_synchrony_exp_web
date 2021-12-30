@@ -62,11 +62,11 @@ function dataTag(){
 
 function nextSlide() {
     let text = document.getElementById("imgClickAndChange").src;
-    var i = text[text.search("slide")+5];
+    var i = text[text.search("Slide")+5];
     var num = parseInt(i);
     var nextbtn = document.getElementById("nextbtn");
     if(num===6 && !(nextbtn.childElementCount >= 1)){
-        document.getElementById("imgClickAndChange").src = "gaze\\slide"+ num+".png";
+        document.getElementById("imgClickAndChange").src = "gaze\\Slide"+ num+".png";
         var btn = document.createElement('button');
         var link = document.createElement('a');
         var next = document.createTextNode("המשך");
@@ -82,11 +82,11 @@ function nextSlide() {
 
     }
     else if(num===6 ){
-        document.getElementById("imgClickAndChange").src = "gaze\\slide"+ num+".png";
+        document.getElementById("imgClickAndChange").src = "gaze\\Slide"+ num+".png";
     }
     else{
         num = num+1;
-        document.getElementById("imgClickAndChange").src = "gaze\\slide"+ num+".png";
+        document.getElementById("imgClickAndChange").src = "gaze\\Slide"+ num+".png";
 
     }
 
@@ -94,14 +94,14 @@ function nextSlide() {
 
 function prevSlide() {
     let text = document.getElementById("imgClickAndChange").src;
-    var i = text[text.search("slide")+5];
+    var i = text[text.search("Slide")+5];
     var num = parseInt(i);
     if(num===1){
-        document.getElementById("imgClickAndChange").src = "gaze\\slide"+ num+".png";
+        document.getElementById("imgClickAndChange").src = "gaze\\Slide"+ num+".png";
     }
     else{
         num = num-1;
-        document.getElementById("imgClickAndChange").src = "gaze\\slide"+ num+".png";
+        document.getElementById("imgClickAndChange").src = "gaze\\Slide"+ num+".png";
     }
 }
 
