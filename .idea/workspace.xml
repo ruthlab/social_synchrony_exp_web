@@ -19,12 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0ce3fee-586b-401b-bde4-908932d65ffa" name="Default Changelist" comment="change gaze slides">
+    <list default="true" id="a0ce3fee-586b-401b-bde4-908932d65ffa" name="Default Changelist" comment="fix bugs2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/intro.html" beforeDir="false" afterPath="$PROJECT_DIR$/intro.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rangeTag.html" beforeDir="false" afterPath="$PROJECT_DIR$/rangeTag.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +58,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Git\social_synchrony_exp_web\gaze" />
       <recent name="C:\Git\social_synchrony_exp_web" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -77,7 +75,7 @@
       <option name="presentableId" value="Default" />
       <updated>1640851008978</updated>
       <workItem from="1640851010047" duration="7410000" />
-      <workItem from="1640860389249" duration="16563000" />
+      <workItem from="1640860389249" duration="20450000" />
     </task>
     <task id="LOCAL‎00001" summary="start">
       <created>1640883037813</created>
@@ -91,7 +89,19 @@
       <option name="presentableId" value="LOCAL‎00002" />
       <updated>1640885776416</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL‎00003" summary="fix bugs">
+      <created>1640887403967</created>
+      <option name="number" value="LOCAL‎00003" />
+      <option name="presentableId" value="LOCAL‎00003" />
+      <updated>1640887403967</updated>
+    </task>
+    <task id="LOCAL‎00004" summary="fix bugs2">
+      <created>1640890120673</created>
+      <option name="number" value="LOCAL‎00004" />
+      <option name="presentableId" value="LOCAL‎00004" />
+      <updated>1640890120673</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,12 +122,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="start" />
     <MESSAGE value="change gaze slides" />
-    <option name="LAST_COMMIT_MESSAGE" value="change gaze slides" />
+    <MESSAGE value="fix bugs" />
+    <MESSAGE value="fix bugs2" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix bugs2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="617" y="276" key="Vcs.Push.Dialog.v2" timestamp="1640885779870">
+    <state x="617" y="276" key="Vcs.Push.Dialog.v2" timestamp="1640890124696">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="617" y="276" key="Vcs.Push.Dialog.v2/-1920.229.1280.767/0.0.2048.1112@0.0.2048.1112" timestamp="1640885779870" />
+    <state x="617" y="276" key="Vcs.Push.Dialog.v2/-1920.229.1280.767/0.0.2048.1112@0.0.2048.1112" timestamp="1640890124696" />
   </component>
 </project>
