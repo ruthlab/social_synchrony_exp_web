@@ -1,3 +1,7 @@
+document.addEventListener("DOMContentLoaded", function nothing(){
+
+})
+
 function checkboxvalidation() {
     let checkbox =document.getElementById('customControlInline').checked;
     if (!checkbox){
@@ -40,7 +44,17 @@ function dataTag(){
         }
         else {
             window.clearInterval(interval);
-            window.open("finished.html");
+            var body = document.getElementById('body')
+            var videodiv = document.getElementById('videodiv')
+            body.removeChild(videodiv);
+            var diver = document.createElement("div");
+            diver.classList.add("text-xl-center");
+            var debrief = document.createElement("img");
+            debrief.classList.add("w-75");
+            debrief.src="debrief.png";
+            diver.appendChild(debrief);
+            body.appendChild(diver);
+
         }
         } , 100);
 
@@ -52,7 +66,7 @@ function nextSlide() {
     var num = parseInt(i);
     var nextbtn = document.getElementById("nextbtn");
     if(num===6 && !(nextbtn.childElementCount >= 1)){
-        document.getElementById("imgClickAndChange").src = "slide"+ num+".png";
+        document.getElementById("imgClickAndChange").src = "gaze\\slide"+ num+".png";
         var btn = document.createElement('button');
         var link = document.createElement('a');
         var next = document.createTextNode("המשך");
@@ -68,11 +82,11 @@ function nextSlide() {
 
     }
     else if(num===6 ){
-        document.getElementById("imgClickAndChange").src = "slide"+ num+".png";
+        document.getElementById("imgClickAndChange").src = "gaze\\slide"+ num+".png";
     }
     else{
         num = num+1;
-        document.getElementById("imgClickAndChange").src = "slide"+ num+".png";
+        document.getElementById("imgClickAndChange").src = "gaze\\slide"+ num+".png";
 
     }
 
@@ -83,14 +97,11 @@ function prevSlide() {
     var i = text[text.search("slide")+5];
     var num = parseInt(i);
     if(num===1){
-        document.getElementById("imgClickAndChange").src = "slide"+ num+".png";
-
+        document.getElementById("imgClickAndChange").src = "gaze\\slide"+ num+".png";
     }
     else{
         num = num-1;
-        document.getElementById("imgClickAndChange").src = "slide"+ num+".png";
-
+        document.getElementById("imgClickAndChange").src = "gaze\\slide"+ num+".png";
     }
-    var slide = "gaze\\slide".concat('', num.toString()).concat('', ".png");
 }
 
