@@ -41,7 +41,7 @@ function nextSlide() {
     var num = parseInt(i);
     var nextbtn = document.getElementById("nextbtn");
     if(num===6 && !(nextbtn.childElementCount >= 1)){
-        document.getElementById("imgClickAndChange").src = "gaze\\slide"+ num+".jpg";
+        document.getElementById("imgClickAndChange").src = "slide"+ num+".jpg";
         var btn = document.createElement('button');
         var link = document.createElement('a');
         var next = document.createTextNode("המשך");
@@ -57,11 +57,11 @@ function nextSlide() {
 
     }
     else if(num===6 ){
-        document.getElementById("imgClickAndChange").src = "gaze\\slide"+ num+".jpg";
+        document.getElementById("imgClickAndChange").src = "slide"+ num+".jpg";
     }
     else{
         num = num+1;
-        document.getElementById("imgClickAndChange").src = "gaze\\slide"+ num+".jpg";
+        document.getElementById("imgClickAndChange").src = "slide"+ num+".jpg";
 
     }
 
@@ -72,12 +72,12 @@ function prevSlide() {
     var i = text[text.search("slide")+5];
     var num = parseInt(i);
     if(num===1){
-        document.getElementById("imgClickAndChange").src = "gaze\\slide"+ num+".jpg";
+        document.getElementById("imgClickAndChange").src = "slide"+ num+".jpg";
 
     }
     else{
         num = num-1;
-        document.getElementById("imgClickAndChange").src = "gaze\\slide"+ num+".jpg";
+        document.getElementById("imgClickAndChange").src = "slide"+ num+".jpg";
 
     }
     var slide = "gaze\\slide".concat('', num.toString()).concat('', ".jpg");
