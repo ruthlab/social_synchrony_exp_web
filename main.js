@@ -166,5 +166,5 @@ function download(content, fileName, contentType) {
 }
 
 function onDownload(){
-    download(JSON.stringify(JSON.parse(localStorage.getItem('expStorage'))), "results.json", "text/plain");
+    download(JSON.stringify(JSON.parse(localStorage.getItem('expStorage'))), "result "+Date.now().toString() +".json", "text/plain");
 }
