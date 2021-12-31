@@ -19,7 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0ce3fee-586b-401b-bde4-908932d65ffa" name="Default Changelist" comment="fix bugs3" />
+    <list default="true" id="a0ce3fee-586b-401b-bde4-908932d65ffa" name="Default Changelist" comment="fix bugs3">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rangeTag.html" beforeDir="false" afterPath="$PROJECT_DIR$/rangeTag.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -77,7 +81,7 @@
       <updated>1640851008978</updated>
       <workItem from="1640851010047" duration="7410000" />
       <workItem from="1640860389249" duration="21204000" />
-      <workItem from="1640933074275" duration="269000" />
+      <workItem from="1640933074275" duration="2468000" />
     </task>
     <task id="LOCAL‎00001" summary="start">
       <created>1640883037813</created>
@@ -109,7 +113,13 @@
       <option name="presentableId" value="LOCAL‎00005" />
       <updated>1640891835960</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL‎00006" summary="local storage">
+      <created>1640933506803</created>
+      <option name="number" value="LOCAL‎00006" />
+      <option name="presentableId" value="LOCAL‎00006" />
+      <updated>1640933506803</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,12 +144,13 @@
     <MESSAGE value="fix bugs" />
     <MESSAGE value="fix bugs2" />
     <MESSAGE value="fix bugs3" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix bugs3" />
+    <MESSAGE value="local storage" />
+    <option name="LAST_COMMIT_MESSAGE" value="local storage" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="617" y="276" key="Vcs.Push.Dialog.v2" timestamp="1640891837372">
+    <state x="617" y="276" key="Vcs.Push.Dialog.v2" timestamp="1640933513370">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="617" y="276" key="Vcs.Push.Dialog.v2/-1920.229.1280.767/0.0.2048.1112@0.0.2048.1112" timestamp="1640891837372" />
+    <state x="617" y="276" key="Vcs.Push.Dialog.v2/-1920.229.1280.767/0.0.2048.1112@0.0.2048.1112" timestamp="1640933513370" />
   </component>
 </project>

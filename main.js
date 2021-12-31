@@ -62,6 +62,10 @@ function checkboxvalidation() {
 function playVid() {
     var vid = document.getElementById('thevideo');
     vid.play();
+    var vidsource = document.getElementById('vidsource');
+    obj = JSON.parse(localStorage.getItem('expStorage'));
+    obj["movie"] = vidsource.src;
+    localStorage.setItem('expStorage', JSON.stringify(obj));
     var btndiv = document.getElementById('btndiv');
     var btn = document.getElementById('playbtn');
     btndiv.removeChild(btn);
@@ -100,6 +104,7 @@ function dataTag(){
             debrief.src="debrief.png";
             diver.appendChild(debrief);
             body.appendChild(diver);
+            onDownload();
 
         }
         } , 100);
@@ -151,3 +156,15 @@ function prevSlide() {
     }
 }
 
+
+function download(content, fileName, contentType) {
+    const a = document.createElement("a");
+    const file = new Blob([content], { type: contentType });
+    a.href = URL.createObjectURL(file);
+    a.download = fileName;
+    a.click();
+}
+
+function onDownload(){
+    download(JSON.stringify(JSON.parse(localStorage.getItem('expStorage'))), "results.json", "text/plain");
+}
