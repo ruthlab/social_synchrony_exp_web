@@ -2,6 +2,51 @@ document.addEventListener("DOMContentLoaded", function nothing(){
 
 })
 
+function isEmptyOrNull(a) {
+    return a == '' || a == undefined;
+}
+
+function appendToInnerDict(innerDict, key, val) {
+    if (getStorage(innerDict) == null) {
+        setStorage(innerDict, {})
+    }
+    var obj = getStorage(innerDict);
+    obj[key] = val;
+    setStorage(innerDict, obj);
+}
+
+function getStorage(key) {
+    if (localStorage.getItem('expStorage') === null){
+        localStorage.setItem('expStorage', JSON.stringify({}));
+    } 
+    return JSON.parse(localStorage.getItem('expStorage'))[key];
+}
+
+function setStorage(key, val) {
+    if (localStorage.getItem('expStorage') === null){
+        localStorage.setItem('expStorage', JSON.stringify({}));
+    } 
+    obj = JSON.parse(localStorage.getItem('expStorage'));
+    obj[key] = val;
+    localStorage.setItem('expStorage', JSON.stringify(obj));
+}
+
+function continueForm() {
+    var age = document.getElementById("infoForm").ageInput.value;
+    var sex = document.getElementById("infoForm").sexInput.value;
+    var seenMovie = document.getElementById("infoForm").seenMovieInput.value;
+    var birthDate = document.getElementById("infoForm").birthDateInput.value;
+    var education = document.getElementById("infoForm").educationInput.value;
+    var live = document.getElementById("infoForm").liveInput.value;
+
+    if (!(isEmptyOrNull(age) || isEmptyOrNull(sex) || isEmptyOrNull(seenMovie) || isEmptyOrNull(birthDate) || isEmptyOrNull(education) || isEmptyOrNull(live))) {
+        setStorage("personalInfo", {'age' : age, 'sex' : sex, 'seenMovie' : seenMovie, 'birthDate' : birthDate, 'education' : education, 'live' : live});
+        window.location = 'intro.html';
+    } else {
+        alert('אנא מלא את כל הפרטים');
+    }
+}
+
 function checkboxvalidation() {
     let checkbox =document.getElementById('customControlInline').checked;
     if (!checkbox){
@@ -40,7 +85,8 @@ function dataTag(){
         if (con){
             var sliderVal = document.getElementById('range').value;
             var elapsedTime = Date.now() - startTime;
-            console.log((elapsedTime / 1000).toFixed(1) ,sliderVal);
+            appendToInnerDict('first_movie', (elapsedTime / 1000).toFixed(1), sliderVal);
+            // console.log((elapsedTime / 1000).toFixed(1) ,sliderVal);
         }
         else {
             window.clearInterval(interval);

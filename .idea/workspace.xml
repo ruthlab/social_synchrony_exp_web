@@ -19,10 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0ce3fee-586b-401b-bde4-908932d65ffa" name="Default Changelist" comment="fix bugs2">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/form.html" afterDir="false" />
-    </list>
+    <list default="true" id="a0ce3fee-586b-401b-bde4-908932d65ffa" name="Default Changelist" comment="fix bugs3" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,11 +41,15 @@
     <option name="projectConfigVersion" value="2" />
   </component>
   <component name="ProjectId" id="22zqxNqGv9TCvyvx65mvsWEzQxQ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -75,7 +76,8 @@
       <option name="presentableId" value="Default" />
       <updated>1640851008978</updated>
       <workItem from="1640851010047" duration="7410000" />
-      <workItem from="1640860389249" duration="20450000" />
+      <workItem from="1640860389249" duration="21204000" />
+      <workItem from="1640933074275" duration="269000" />
     </task>
     <task id="LOCAL‎00001" summary="start">
       <created>1640883037813</created>
@@ -101,7 +103,13 @@
       <option name="presentableId" value="LOCAL‎00004" />
       <updated>1640890120673</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL‎00005" summary="fix bugs3">
+      <created>1640891835960</created>
+      <option name="number" value="LOCAL‎00005" />
+      <option name="presentableId" value="LOCAL‎00005" />
+      <updated>1640891835960</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,16 +128,18 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="start" />
     <MESSAGE value="change gaze slides" />
     <MESSAGE value="fix bugs" />
     <MESSAGE value="fix bugs2" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix bugs2" />
+    <MESSAGE value="fix bugs3" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix bugs3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="617" y="276" key="Vcs.Push.Dialog.v2" timestamp="1640890124696">
+    <state x="617" y="276" key="Vcs.Push.Dialog.v2" timestamp="1640891837372">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="617" y="276" key="Vcs.Push.Dialog.v2/-1920.229.1280.767/0.0.2048.1112@0.0.2048.1112" timestamp="1640890124696" />
+    <state x="617" y="276" key="Vcs.Push.Dialog.v2/-1920.229.1280.767/0.0.2048.1112@0.0.2048.1112" timestamp="1640891837372" />
   </component>
 </project>
