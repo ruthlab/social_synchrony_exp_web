@@ -21,11 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a0ce3fee-586b-401b-bde4-908932d65ffa" name="Default Changelist" comment="fix bugs3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rangeTag.html" beforeDir="false" afterPath="$PROJECT_DIR$/rangeTag.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slider_tutorial_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/slider_tutorial_1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +86,7 @@
       <workItem from="1640955041371" duration="2159000" />
       <workItem from="1641023358094" duration="3701000" />
       <workItem from="1641075629488" duration="5334000" />
-      <workItem from="1641117717523" duration="1573000" />
+      <workItem from="1641117717523" duration="2339000" />
     </task>
     <task id="LOCAL‎00001" summary="start">
       <created>1640883037813</created>
@@ -151,7 +148,13 @@
       <option name="presentableId" value="LOCAL‎00010" />
       <updated>1641117814280</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL‎00011" summary="change pics and tags">
+      <created>1641119659193</created>
+      <option name="number" value="LOCAL‎00011" />
+      <option name="presentableId" value="LOCAL‎00011" />
+      <updated>1641119659193</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,7 +184,8 @@
     <MESSAGE value="change movie" />
     <MESSAGE value="שינוי תוויות" />
     <MESSAGE value="remove download" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove download" />
+    <MESSAGE value="change pics and tags" />
+    <option name="LAST_COMMIT_MESSAGE" value="change pics and tags" />
   </component>
   <component name="WindowStateProjectService">
     <state x="774" y="358" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1640939393273">
@@ -196,9 +200,9 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="805" y="311" key="FileChooserDialogImpl/-1920.229.1280.767/0.0.2048.1112@0.0.2048.1112" timestamp="1641058528959" />
-    <state x="617" y="276" key="Vcs.Push.Dialog.v2" timestamp="1641117821761">
+    <state x="617" y="276" key="Vcs.Push.Dialog.v2" timestamp="1641119662679">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="617" y="276" key="Vcs.Push.Dialog.v2/-1920.229.1280.767/0.0.2048.1112@0.0.2048.1112" timestamp="1641117821761" />
+    <state x="617" y="276" key="Vcs.Push.Dialog.v2/-1920.229.1280.767/0.0.2048.1112@0.0.2048.1112" timestamp="1641119662679" />
   </component>
 </project>

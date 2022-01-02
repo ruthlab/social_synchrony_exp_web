@@ -87,7 +87,7 @@ function dataTag(){
     }
     var interval = window.setInterval(function () {
         if (con){
-            var sliderVal = document.getElementById('range').value;
+            var sliderVal = Math.abs(document.getElementById('range').value);
             var elapsedTime = Date.now() - startTime;
             appendToInnerDict('first_movie', (elapsedTime / 1000).toFixed(1), sliderVal);
             // console.log((elapsedTime / 1000).toFixed(1) ,sliderVal);
