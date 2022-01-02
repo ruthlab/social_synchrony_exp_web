@@ -20,9 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0ce3fee-586b-401b-bde4-908932d65ffa" name="Default Changelist" comment="fix bugs3">
+      <change afterPath="$PROJECT_DIR$/movies/mighty1.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slider_tutorial_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slider_tutorial_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trailIntro.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rangeTag.html" beforeDir="false" afterPath="$PROJECT_DIR$/rangeTag.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/intro.html" beforeDir="false" afterPath="$PROJECT_DIR$/intro.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,13 +67,14 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Git\social_synchrony_exp_web\gaze" />
-      <recent name="C:\Git\social_synchrony_exp_web" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Git\social_synchrony_exp_web" />
       <recent name="C:\Git\social_synchrony_exp_web\movies" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Git\social_synchrony_exp_web\movies" />
+      <recent name="C:\Git\social_synchrony_exp_web\gaze" />
+      <recent name="C:\Git\social_synchrony_exp_web" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -84,7 +90,7 @@
       <workItem from="1640933074275" duration="5838000" />
       <workItem from="1640955041371" duration="2159000" />
       <workItem from="1641023358094" duration="3701000" />
-      <workItem from="1641075629488" duration="2779000" />
+      <workItem from="1641075629488" duration="5334000" />
     </task>
     <task id="LOCAL‎00001" summary="start">
       <created>1640883037813</created>
@@ -134,7 +140,13 @@
       <option name="presentableId" value="LOCAL‎00008" />
       <updated>1640939592978</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL‎00009" summary="שינוי תוויות">
+      <created>1641110746079</created>
+      <option name="number" value="LOCAL‎00009" />
+      <option name="presentableId" value="LOCAL‎00009" />
+      <updated>1641110746079</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,7 +174,8 @@
     <MESSAGE value="local storage" />
     <MESSAGE value="download file" />
     <MESSAGE value="change movie" />
-    <option name="LAST_COMMIT_MESSAGE" value="change movie" />
+    <MESSAGE value="שינוי תוויות" />
+    <option name="LAST_COMMIT_MESSAGE" value="שינוי תוויות" />
   </component>
   <component name="WindowStateProjectService">
     <state x="774" y="358" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1640939393273">
@@ -173,9 +186,9 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="805" y="311" key="FileChooserDialogImpl/-1920.229.1280.767/0.0.2048.1112@0.0.2048.1112" timestamp="1641058528959" />
-    <state x="617" y="276" key="Vcs.Push.Dialog.v2" timestamp="1640939594478">
+    <state x="617" y="276" key="Vcs.Push.Dialog.v2" timestamp="1641110767741">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="617" y="276" key="Vcs.Push.Dialog.v2/-1920.229.1280.767/0.0.2048.1112@0.0.2048.1112" timestamp="1640939594478" />
+    <state x="617" y="276" key="Vcs.Push.Dialog.v2/-1920.229.1280.767/0.0.2048.1112@0.0.2048.1112" timestamp="1641110767741" />
   </component>
 </project>

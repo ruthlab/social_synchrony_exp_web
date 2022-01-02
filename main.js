@@ -41,7 +41,7 @@ function continueForm() {
 
     if (!(isEmptyOrNull(age) || isEmptyOrNull(sex) || isEmptyOrNull(seenMovie) || isEmptyOrNull(birthDate) || isEmptyOrNull(education) || isEmptyOrNull(live))) {
         setStorage("personalInfo", {'age' : age, 'sex' : sex, 'seenMovie' : seenMovie, 'birthDate' : birthDate, 'education' : education, 'live' : live});
-        window.location = 'intro.html';
+        window.location = 'trailIntro.html';
     } else {
         alert('אנא מלא את כל הפרטים');
     }
@@ -167,4 +167,55 @@ function download(content, fileName, contentType) {
 
 function onDownload(){
     download(JSON.stringify(JSON.parse(localStorage.getItem('expStorage'))), "result "+Date.now().toString() +".json", "text/plain");
+}
+function playVidTrail() {
+    var vid = document.getElementById('mighty');
+    vid.play();
+    var btndiv = document.getElementById('btndiv2');
+    var btn = document.getElementById('playbtn2');
+    btndiv.removeChild(btn);
+    cont();
+}
+
+
+function cont(){
+    let con = true;
+    document.getElementById('mighty').addEventListener('ended',myHandler,false);
+    function myHandler(e) {
+        con = false;
+
+    }
+    var interval = window.setInterval(function () {
+        if (!con){
+            window.clearInterval(interval);
+            var body = document.getElementById('body2')
+            var videodiv = document.getElementById('mightydiv')
+            body.removeChild(videodiv);
+            var diver = document.createElement("div");
+            diver.classList.add("text-xl-center");
+            var tutorial = document.createElement("img");
+            tutorial.classList.add("w-50");
+            tutorial.src="slider_tutorial_3.png";
+            var btn = document.createElement('button');
+            var link = document.createElement('a');
+            var next = document.createTextNode("המשך");
+            btn.classList.add("btn");
+            btn.classList.add("btn-primary");
+            btn.classList.add("my-1");
+            link.classList.add("text-decoration-none");
+            link.classList.add("text-white");
+            link.appendChild(next);
+            link.href = "intro.html";
+            btn.appendChild(link);
+            var br = document.createElement('br');
+
+            diver.appendChild(tutorial);
+            body.appendChild(diver);
+            body.appendChild(br);
+            body.appendChild(btn);
+            onDownload();
+
+        }
+    } , 100);
+
 }
