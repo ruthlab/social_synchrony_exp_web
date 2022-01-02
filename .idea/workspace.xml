@@ -20,14 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0ce3fee-586b-401b-bde4-908932d65ffa" name="Default Changelist" comment="fix bugs3">
-      <change afterPath="$PROJECT_DIR$/movies/mighty1.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slider_tutorial_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slider_tutorial_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trailIntro.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/intro.html" beforeDir="false" afterPath="$PROJECT_DIR$/intro.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trail.html" beforeDir="false" afterPath="$PROJECT_DIR$/trail.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,6 +86,7 @@
       <workItem from="1640955041371" duration="2159000" />
       <workItem from="1641023358094" duration="3701000" />
       <workItem from="1641075629488" duration="5334000" />
+      <workItem from="1641117717523" duration="63000" />
     </task>
     <task id="LOCAL‎00001" summary="start">
       <created>1640883037813</created>

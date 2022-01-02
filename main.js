@@ -213,7 +213,6 @@ function cont(){
             body.appendChild(diver);
             body.appendChild(br);
             body.appendChild(btn);
-            onDownload();
 
         }
     } , 100);
