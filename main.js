@@ -43,7 +43,7 @@ function continueForm() {
         setStorage("personalInfo", {'age' : age, 'sex' : sex, 'seenMovie' : seenMovie, 'birthDate' : birthDate, 'education' : education, 'live' : live});
         window.location = 'trailIntro.html';
     } else {
-        alert('אנא מלא את כל הפרטים');
+        alert('אנא מלא/י את כל הפרטים');
     }
 }
 

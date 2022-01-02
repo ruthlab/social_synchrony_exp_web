@@ -17,7 +17,9 @@
     align-items: center;
 }
 
-
+.hidecursor{
+    cursor: none;
+}
 .slider {
     -webkit-appearance: none;
     width: 50%;
