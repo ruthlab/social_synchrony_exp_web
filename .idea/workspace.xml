@@ -21,7 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a0ce3fee-586b-401b-bde4-908932d65ffa" name="Default Changelist" comment="fix bugs3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/form.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rangeTag.html" beforeDir="false" afterPath="$PROJECT_DIR$/rangeTag.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +81,10 @@
       <updated>1640851008978</updated>
       <workItem from="1640851010047" duration="7410000" />
       <workItem from="1640860389249" duration="21204000" />
-      <workItem from="1640933074275" duration="4408000" />
+      <workItem from="1640933074275" duration="5838000" />
+      <workItem from="1640955041371" duration="2159000" />
+      <workItem from="1641023358094" duration="3701000" />
+      <workItem from="1641075629488" duration="2779000" />
     </task>
     <task id="LOCAL‎00001" summary="start">
       <created>1640883037813</created>
@@ -125,7 +128,13 @@
       <option name="presentableId" value="LOCAL‎00007" />
       <updated>1640937033977</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL‎00008" summary="change movie">
+      <created>1640939592978</created>
+      <option name="number" value="LOCAL‎00008" />
+      <option name="presentableId" value="LOCAL‎00008" />
+      <updated>1640939592978</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,16 +161,21 @@
     <MESSAGE value="fix bugs3" />
     <MESSAGE value="local storage" />
     <MESSAGE value="download file" />
-    <option name="LAST_COMMIT_MESSAGE" value="download file" />
+    <MESSAGE value="change movie" />
+    <option name="LAST_COMMIT_MESSAGE" value="change movie" />
   </component>
   <component name="WindowStateProjectService">
     <state x="774" y="358" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1640939393273">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="774" y="358" key="#com.intellij.fileTypes.FileTypeChooser/-1920.229.1280.767/0.0.2048.1112@0.0.2048.1112" timestamp="1640939393273" />
-    <state x="617" y="276" key="Vcs.Push.Dialog.v2" timestamp="1640933513370">
+    <state x="805" y="311" key="FileChooserDialogImpl" timestamp="1641058528959">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="617" y="276" key="Vcs.Push.Dialog.v2/-1920.229.1280.767/0.0.2048.1112@0.0.2048.1112" timestamp="1640933513370" />
+    <state x="805" y="311" key="FileChooserDialogImpl/-1920.229.1280.767/0.0.2048.1112@0.0.2048.1112" timestamp="1641058528959" />
+    <state x="617" y="276" key="Vcs.Push.Dialog.v2" timestamp="1640939594478">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="617" y="276" key="Vcs.Push.Dialog.v2/-1920.229.1280.767/0.0.2048.1112@0.0.2048.1112" timestamp="1640939594478" />
   </component>
 </project>
