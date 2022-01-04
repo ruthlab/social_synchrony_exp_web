@@ -20,24 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0ce3fee-586b-401b-bde4-908932d65ffa" name="Default Changelist" comment="fix bugs3">
-      <change afterPath="$PROJECT_DIR$/introTouch.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rangeTagTouch.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/touch/Slide1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/touch/Slide2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/touch/Slide3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/touch/Slide4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/touch/Slide5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/touch/Slide6.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/intro.html" beforeDir="false" afterPath="$PROJECT_DIR$/introGaze.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/form.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rangeTag.html" beforeDir="false" afterPath="$PROJECT_DIR$/rangeTagGaze.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/touch/Slide1.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/touch/Slide2.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/touch/Slide3.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/touch/Slide4.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/touch/Slide5.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/touch/Slide6.JPG" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +39,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="only_gaze" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitToolBoxStore">
@@ -102,6 +92,8 @@
       <workItem from="1641023358094" duration="3701000" />
       <workItem from="1641075629488" duration="5334000" />
       <workItem from="1641117717523" duration="4673000" />
+      <workItem from="1641294004535" duration="10000" />
+      <workItem from="1641294048995" duration="2480000" />
     </task>
     <task id="LOCAL‎00001" summary="start">
       <created>1640883037813</created>

@@ -6,12 +6,12 @@ function isEmptyOrNull(a) {
     return a == '' || a == undefined;
 }
 
-function appendToInnerDict(innerDict, key, val) {
+function appendToInnerDict(innerDict, val) {
     if (getStorage(innerDict) == null) {
-        setStorage(innerDict, {})
+        setStorage(innerDict, [])
     }
     var obj = getStorage(innerDict);
-    obj[key] = val;
+    obj.push(val);
     setStorage(innerDict, obj);
 }
 
@@ -35,12 +35,11 @@ function continueForm() {
     var age = document.getElementById("infoForm").ageInput.value;
     var sex = document.getElementById("infoForm").sexInput.value;
     var seenMovie = document.getElementById("infoForm").seenMovieInput.value;
-    var birthDate = document.getElementById("infoForm").birthDateInput.value;
     var education = document.getElementById("infoForm").educationInput.value;
     var live = document.getElementById("infoForm").liveInput.value;
 
-    if (!(isEmptyOrNull(age) || isEmptyOrNull(sex) || isEmptyOrNull(seenMovie) || isEmptyOrNull(birthDate) || isEmptyOrNull(education) || isEmptyOrNull(live))) {
-        setStorage("personalInfo", {'age' : age, 'sex' : sex, 'seenMovie' : seenMovie, 'birthDate' : birthDate, 'education' : education, 'live' : live});
+    if (!(isEmptyOrNull(age) || isEmptyOrNull(sex) || isEmptyOrNull(seenMovie) || isEmptyOrNull(education) || isEmptyOrNull(live))) {
+        setStorage("personalInfo", {'age' : age, 'sex' : sex, 'seenMovie' : seenMovie,  'education' : education, 'live' : live});
         window.location = 'trailIntro.html';
     } else {
         alert('אנא מלא/י את כל הפרטים');
@@ -89,7 +88,9 @@ function dataTag(){
         if (con){
             var sliderVal = Math.abs(document.getElementById('range').value);
             var elapsedTime = Date.now() - startTime;
-            appendToInnerDict('gaze', (elapsedTime / 1000).toFixed(1), sliderVal);
+            appendToInnerDict('gaze', {"time":(elapsedTime / 1000).toFixed(1), "rate": sliderVal});
+            //setStorage('gaze', [{"time":(elapsedTime / 1000).toFixed(1), "rate":sliderVal}])
+            //appendToInnerDict('gaze', (elapsedTime / 1000).toFixed(1), sliderVal);
             // console.log((elapsedTime / 1000).toFixed(1) ,sliderVal);
         }
         else {
@@ -105,7 +106,7 @@ function nextSlide() {
     var i = text[text.search("Slide")+5];
     var num = parseInt(i);
     var nextbtn = document.getElementById("nextbtn");
-    if(num===6 && !(nextbtn.childElementCount >= 1)){
+    if(num===5 && !(nextbtn.childElementCount >= 1)){
         document.getElementById("imgClickAndChange").src = "gaze\\Slide"+ num+".png";
         var btn = document.createElement('button');
         var link = document.createElement('a');
@@ -170,7 +171,7 @@ function dataTagTouch(){
         if (con){
             var sliderVal = Math.abs(document.getElementById('ranget').value);
             var elapsedTime = Date.now() - startTime;
-            appendToInnerDict('touch', (elapsedTime / 1000).toFixed(1), sliderVal);
+            appendToInnerDict('touch', {"time":(elapsedTime / 1000).toFixed(1), "rate": sliderVal});
             // console.log((elapsedTime / 1000).toFixed(1) ,sliderVal);
         }
         else {
@@ -196,7 +197,7 @@ function nextSlideTouch() {
     var i = text[text.search("Slide")+5];
     var num = parseInt(i);
     var nextbtn = document.getElementById("nextbtnt");
-    if(num===6 && !(nextbtn.childElementCount >= 1)){
+    if(num===5 && !(nextbtn.childElementCount >= 1)){
         document.getElementById("imgClickAndChanget").src = "touch\\Slide"+ num+".png";
         var btn = document.createElement('button');
         var link = document.createElement('a');
