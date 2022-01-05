@@ -53,7 +53,7 @@ function checkboxvalidation() {
         return false;
     }
     else{
-        window.open("form.html");
+        setTimeout(() => window.open("form.html"), 1000);
 
     }
 }
@@ -63,7 +63,7 @@ function playVid() {
     vid.play();
     var vidsource = document.getElementById('vidsource');
     obj = JSON.parse(localStorage.getItem('expStorage'));
-    obj["movie"] = vidsource.src;
+    obj["movie1"] = vidsource.src;
     localStorage.setItem('expStorage', JSON.stringify(obj));
     var btndiv = document.getElementById('btndiv');
     var btn = document.getElementById('playbtn');
@@ -95,7 +95,31 @@ function dataTag(){
         }
         else {
             window.clearInterval(interval);
-            window.open("introTouch.html")
+            var body = document.getElementById('body')
+            var videodiv = document.getElementById('videodiv')
+            body.removeChild(videodiv);
+            var diver = document.createElement("div");
+            diver.classList.add("text-xl-center");
+            var tutorial = document.createElement("img");
+            tutorial.classList.add("w-50");
+            tutorial.src="next_movie.png";
+            var btn = document.createElement('button');
+            var link = document.createElement('a');
+            var next = document.createTextNode("המשך");
+            btn.classList.add("btn");
+            btn.classList.add("btn-primary");
+            btn.classList.add("my-1");
+            link.classList.add("text-decoration-none");
+            link.classList.add("text-white");
+            link.appendChild(next);
+            link.href = "introTouch.html";
+            btn.appendChild(link);
+            var br = document.createElement('br');
+
+            diver.appendChild(tutorial);
+            body.appendChild(diver);
+            body.appendChild(br);
+            body.appendChild(btn);
         }
         } , 100);
 
@@ -107,6 +131,7 @@ function nextSlide() {
     var num = parseInt(i);
     var nextbtn = document.getElementById("nextbtn");
     if(num===5 && !(nextbtn.childElementCount >= 1)){
+        num = num+1;
         document.getElementById("imgClickAndChange").src = "gaze\\Slide"+ num+".png";
         var btn = document.createElement('button');
         var link = document.createElement('a');
@@ -151,7 +176,7 @@ function playVidTouch() {
     vid.play();
     var vidsource = document.getElementById('vidsourcet');
     obj = JSON.parse(localStorage.getItem('expStorage'));
-    obj["movie"] = vidsource.src;
+    obj["movie2"] = vidsource.src;
     localStorage.setItem('expStorage', JSON.stringify(obj));
     var btndiv = document.getElementById('btndivt');
     var btn = document.getElementById('playbtnt');
@@ -186,7 +211,17 @@ function dataTagTouch(){
             debrief.src="debrief.png";
             diver.appendChild(debrief);
             body.appendChild(diver);
+            var btn = document.createElement('button');
+            var text = document.createTextNode("הורד תוצאות");
+            btn.appendChild(text);
+            btn.classList.add("btn");
+            btn.classList.add("btn-primary");
+            btn.classList.add("my-1");
+            btn.setAttribute("onclick","onDownload();");
+            var br = document.createElement('br');
             onDownload();
+            body.appendChild(br);
+            body.appendChild(btn);
         }
     } , 100);
 
@@ -198,6 +233,7 @@ function nextSlideTouch() {
     var num = parseInt(i);
     var nextbtn = document.getElementById("nextbtnt");
     if(num===5 && !(nextbtn.childElementCount >= 1)){
+        num = num+1;
         document.getElementById("imgClickAndChanget").src = "touch\\Slide"+ num+".png";
         var btn = document.createElement('button');
         var link = document.createElement('a');
@@ -243,33 +279,40 @@ function download(content, fileName, contentType) {
     const file = new Blob([content], { type: contentType });
     a.href = URL.createObjectURL(file);
     a.download = fileName;
-    a.click();
+    setTimeout(() => a.click(), 1000);
 }
 
 function onDownload(){
     download(JSON.stringify(JSON.parse(localStorage.getItem('expStorage'))), "result "+Date.now().toString() +".json", "text/plain");
 }
+
 function playVidTrail() {
     var vid = document.getElementById('mighty');
     vid.play();
-    var btndiv = document.getElementById('btndiv2');
-    var btn = document.getElementById('playbtn2');
+    var btndiv = document.getElementById('btndivtr');
+    var btn = document.getElementById('playbtntr');
     btndiv.removeChild(btn);
-    cont();
+    dataTagTrail();
 }
 
 
-function cont(){
+function dataTagTrail(){
     let con = true;
+    var startTime = Date.now();
     document.getElementById('mighty').addEventListener('ended',myHandler,false);
     function myHandler(e) {
         con = false;
-
     }
     var interval = window.setInterval(function () {
-        if (!con){
+        if (con){
+            var sliderVal = Math.abs(document.getElementById('rangetr').value);
+            var elapsedTime = Date.now() - startTime;
+            appendToInnerDict('sheepwolf', {"time":(elapsedTime / 1000).toFixed(1), "rate": sliderVal});
+            // console.log((elapsedTime / 1000).toFixed(1) ,sliderVal);
+        }
+        else {
             window.clearInterval(interval);
-            var body = document.getElementById('body2')
+            var body = document.getElementById('bodytr')
             var videodiv = document.getElementById('mightydiv')
             body.removeChild(videodiv);
             var diver = document.createElement("div");
@@ -294,8 +337,6 @@ function cont(){
             body.appendChild(diver);
             body.appendChild(br);
             body.appendChild(btn);
-
         }
     } , 100);
-
 }
