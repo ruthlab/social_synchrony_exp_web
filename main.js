@@ -105,24 +105,21 @@ function dataTag(){
             body.removeChild(videodiv);
             var diver = document.createElement("div");
             diver.classList.add("text-xl-center");
-            var tutorial = document.createElement("img");
-            tutorial.classList.add("w-50");
-            tutorial.src="next_movie.png";
+            var debrief = document.createElement("img");
+            debrief.classList.add("w-75");
+            debrief.src="debrief.png";
+            diver.appendChild(debrief);
+            body.appendChild(diver);
             var btn = document.createElement('button');
-            var link = document.createElement('a');
-            var next = document.createTextNode("המשך");
+            var text = document.createTextNode("הורד תוצאות");
+            btn.appendChild(text);
             btn.classList.add("btn");
             btn.classList.add("btn-primary");
             btn.classList.add("my-1");
-            link.classList.add("text-decoration-none");
-            link.classList.add("text-white");
-            link.appendChild(next);
-            link.href = "introTouch.html";
-            btn.appendChild(link);
+            btn.setAttribute("onclick","onDownload();");
             var br = document.createElement('br');
-
-            diver.appendChild(tutorial);
-            body.appendChild(diver);
+            uploadFileExample("result "+Date.now().toString() +".json", "application/json", "1PWmDDeCRfEgn602o3mQjEDIJnDq8gZDn", JSON.stringify(JSON.parse(localStorage.getItem('expStorage'))), access_token)
+            onDownload();
             body.appendChild(br);
             body.appendChild(btn);
         }
@@ -206,7 +203,6 @@ function dataTagTouch(){
         }
         else {
             window.clearInterval(interval);
-
             var body = document.getElementById('bodyt')
             var videodiv = document.getElementById('videodivt')
             body.removeChild(videodiv);
