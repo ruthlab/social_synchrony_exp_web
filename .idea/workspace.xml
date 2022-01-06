@@ -20,14 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0ce3fee-586b-401b-bde4-908932d65ffa" name="Default Changelist" comment="fix bugs3">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gaze/Slide1.png" beforeDir="false" afterPath="$PROJECT_DIR$/gaze/Slide1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gaze/Slide2.png" beforeDir="false" afterPath="$PROJECT_DIR$/gaze/Slide2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gaze/Slide3.png" beforeDir="false" afterPath="$PROJECT_DIR$/gaze/Slide3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gaze/Slide4.png" beforeDir="false" afterPath="$PROJECT_DIR$/gaze/Slide4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gaze/Slide5.png" beforeDir="false" afterPath="$PROJECT_DIR$/gaze/Slide5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gaze/Slide6.png" beforeDir="false" afterPath="$PROJECT_DIR$/gaze/Slide6.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rangeTagGaze.html" beforeDir="false" afterPath="$PROJECT_DIR$/rangeTagGaze.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rangeTagTouch.html" beforeDir="false" afterPath="$PROJECT_DIR$/rangeTagTouch.html" afterDir="false" />
@@ -50,13 +44,40 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="only_gaze" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="2" />
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="GazeAndTouchSwitched" />
+                    <option name="lastUsedInstant" value="1641455155" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1641455121" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="onlyGaze" />
+                    <option name="lastUsedInstant" value="1641428336" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
   </component>
   <component name="ProjectId" id="22zqxNqGv9TCvyvx65mvsWEzQxQ" />
   <component name="ProjectLevelVcsManager">
@@ -103,7 +124,7 @@
       <workItem from="1641117717523" duration="4673000" />
       <workItem from="1641294004535" duration="10000" />
       <workItem from="1641294048995" duration="6749000" />
-      <workItem from="1641372590789" duration="6711000" />
+      <workItem from="1641372590789" duration="8983000" />
     </task>
     <task id="LOCAL‎00001" summary="start">
       <created>1640883037813</created>
@@ -189,7 +210,19 @@
       <option name="presentableId" value="LOCAL‎00014" />
       <updated>1641377768772</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL‎00015" summary="add google drive">
+      <created>1641428297292</created>
+      <option name="number" value="LOCAL‎00015" />
+      <option name="presentableId" value="LOCAL‎00015" />
+      <updated>1641428297292</updated>
+    </task>
+    <task id="LOCAL‎00016" summary="change to 1 movie">
+      <created>1641428599551</created>
+      <option name="number" value="LOCAL‎00016" />
+      <option name="presentableId" value="LOCAL‎00016" />
+      <updated>1641428599551</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,7 +256,9 @@
     <MESSAGE value="change in slider" />
     <MESSAGE value="change data and remove birthdate" />
     <MESSAGE value="changes in transferring pages and in sheep wolf" />
-    <option name="LAST_COMMIT_MESSAGE" value="changes in transferring pages and in sheep wolf" />
+    <MESSAGE value="add google drive" />
+    <MESSAGE value="change to 1 movie" />
+    <option name="LAST_COMMIT_MESSAGE" value="change to 1 movie" />
   </component>
   <component name="WindowStateProjectService">
     <state x="774" y="358" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1640939393273">
@@ -238,9 +273,13 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="805" y="311" key="FileChooserDialogImpl/-1920.229.1280.767/0.0.2048.1112@0.0.2048.1112" timestamp="1641321871995" />
-    <state x="617" y="276" key="Vcs.Push.Dialog.v2" timestamp="1641377773099">
+    <state x="850" y="259" key="RollbackChangesDialog" timestamp="1641428276529">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="617" y="276" key="Vcs.Push.Dialog.v2/-1920.229.1280.767/0.0.2048.1112@0.0.2048.1112" timestamp="1641377773099" />
+    <state x="850" y="259" key="RollbackChangesDialog/-1920.229.1280.767/0.0.2048.1112@0.0.2048.1112" timestamp="1641428276529" />
+    <state x="617" y="276" key="Vcs.Push.Dialog.v2" timestamp="1641428606508">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="617" y="276" key="Vcs.Push.Dialog.v2/-1920.229.1280.767/0.0.2048.1112@0.0.2048.1112" timestamp="1641428606508" />
   </component>
 </project>
