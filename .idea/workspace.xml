@@ -22,7 +22,16 @@
     <list default="true" id="a0ce3fee-586b-401b-bde4-908932d65ffa" name="Default Changelist" comment="fix bugs3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gaze/Slide1.png" beforeDir="false" afterPath="$PROJECT_DIR$/gaze/Slide1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gaze/Slide2.png" beforeDir="false" afterPath="$PROJECT_DIR$/gaze/Slide2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gaze/Slide3.png" beforeDir="false" afterPath="$PROJECT_DIR$/gaze/Slide3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gaze/Slide4.png" beforeDir="false" afterPath="$PROJECT_DIR$/gaze/Slide4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gaze/Slide5.png" beforeDir="false" afterPath="$PROJECT_DIR$/gaze/Slide5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gaze/Slide6.png" beforeDir="false" afterPath="$PROJECT_DIR$/gaze/Slide6.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rangeTagGaze.html" beforeDir="false" afterPath="$PROJECT_DIR$/rangeTagGaze.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rangeTagTouch.html" beforeDir="false" afterPath="$PROJECT_DIR$/rangeTagTouch.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trail.html" beforeDir="false" afterPath="$PROJECT_DIR$/trail.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +71,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../My-Personal-Site" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -93,7 +102,8 @@
       <workItem from="1641075629488" duration="5334000" />
       <workItem from="1641117717523" duration="4673000" />
       <workItem from="1641294004535" duration="10000" />
-      <workItem from="1641294048995" duration="2480000" />
+      <workItem from="1641294048995" duration="6749000" />
+      <workItem from="1641372590789" duration="6711000" />
     </task>
     <task id="LOCAL‎00001" summary="start">
       <created>1640883037813</created>
@@ -167,7 +177,19 @@
       <option name="presentableId" value="LOCAL‎00012" />
       <updated>1641120471268</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL‎00013" summary="change data and remove birthdate">
+      <created>1641296985043</created>
+      <option name="number" value="LOCAL‎00013" />
+      <option name="presentableId" value="LOCAL‎00013" />
+      <updated>1641296985043</updated>
+    </task>
+    <task id="LOCAL‎00014" summary="changes in transferring pages and in sheep wolf">
+      <created>1641377768772</created>
+      <option name="number" value="LOCAL‎00014" />
+      <option name="presentableId" value="LOCAL‎00014" />
+      <updated>1641377768772</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,7 +221,9 @@
     <MESSAGE value="remove download" />
     <MESSAGE value="change pics and tags" />
     <MESSAGE value="change in slider" />
-    <option name="LAST_COMMIT_MESSAGE" value="change in slider" />
+    <MESSAGE value="change data and remove birthdate" />
+    <MESSAGE value="changes in transferring pages and in sheep wolf" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes in transferring pages and in sheep wolf" />
   </component>
   <component name="WindowStateProjectService">
     <state x="774" y="358" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1640939393273">
@@ -210,13 +234,13 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="755" y="303" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1920.229.1280.767/0.0.2048.1112@0.0.2048.1112" timestamp="1641119513507" />
-    <state x="805" y="311" key="FileChooserDialogImpl" timestamp="1641058528959">
+    <state x="805" y="311" key="FileChooserDialogImpl" timestamp="1641321871995">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="805" y="311" key="FileChooserDialogImpl/-1920.229.1280.767/0.0.2048.1112@0.0.2048.1112" timestamp="1641058528959" />
-    <state x="617" y="276" key="Vcs.Push.Dialog.v2" timestamp="1641120472722">
+    <state x="805" y="311" key="FileChooserDialogImpl/-1920.229.1280.767/0.0.2048.1112@0.0.2048.1112" timestamp="1641321871995" />
+    <state x="617" y="276" key="Vcs.Push.Dialog.v2" timestamp="1641377773099">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="617" y="276" key="Vcs.Push.Dialog.v2/-1920.229.1280.767/0.0.2048.1112@0.0.2048.1112" timestamp="1641120472722" />
+    <state x="617" y="276" key="Vcs.Push.Dialog.v2/-1920.229.1280.767/0.0.2048.1112@0.0.2048.1112" timestamp="1641377773099" />
   </component>
 </project>
