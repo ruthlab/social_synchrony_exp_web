@@ -1,0 +1,12 @@
+{
+  "runs":[{
+    "movies": ["SM2430","SM024030"],
+    "trails": ["Touch","Gaze"],
+    "numOfRuns": 2
+      },{
+    "movies": ["SM3440","gump"],
+    "trails": ["Touch","Gaze"],
+    "numOfRuns": 0
+    }]
+
+}
