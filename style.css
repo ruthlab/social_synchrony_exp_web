@@ -47,3 +47,33 @@
     background: dodgerblue;
     cursor: pointer;
 }
+
+
+#widget {
+    border: 1px solid black;
+}
+#markerbounds {
+    margin: auto;
+    position: relative;
+}
+
+#box {
+    margin: auto;
+    position: absolute;
+}
+
+#marker {
+    position: relative;
+    background-color: brown;
+    border-radius: 100px;
+}
+
+#coord {
+    font-family: serif;
+    font-size: 14px;
+    margin: 0px;
+}
+
+#bodyv {
+    background-color: #212529 !important;
+}

@@ -20,23 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0ce3fee-586b-401b-bde4-908932d65ffa" name="Default Changelist" comment="fix bugs3">
-      <change afterPath="$PROJECT_DIR$/introId.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/introSync.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rangeTagId.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rangeTagSync.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/runControler.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sync/Slide1.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sync/Slide2.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sync/Slide3.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rangeTagValence.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/valence/arousal.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/social_synchrony_exp_web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/social_synchrony_exp_web.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/id/Slide1.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/id/Slide2.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/introGaze.html" beforeDir="false" afterPath="$PROJECT_DIR$/introGaze.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/introTouch.html" beforeDir="false" afterPath="$PROJECT_DIR$/introTouch.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rangeTagGaze.html" beforeDir="false" afterPath="$PROJECT_DIR$/rangeTagGaze.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rangeTagTouch.html" beforeDir="false" afterPath="$PROJECT_DIR$/rangeTagTouch.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trail.html" beforeDir="false" afterPath="$PROJECT_DIR$/trail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,8 +35,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -55,14 +44,36 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="only_gaze" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="2" />
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="valence_arousal_clean" />
+                    <option name="lastUsedInstant" value="1644760026" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1644759700" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
   </component>
   <component name="ProjectId" id="22zqxNqGv9TCvyvx65mvsWEzQxQ" />
   <component name="ProjectLevelVcsManager">
@@ -96,6 +107,20 @@
       <recent name="C:\Git\social_synchrony_exp_web\movies" />
     </key>
   </component>
+  <component name="RunManager" selected="JavaScript Debug.rangeTagValence.html">
+    <configuration name="rangeTagValence.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/social_synchrony_exp_web/rangeTagValence.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="jquery.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/range2dslider-master/jquery.js" working-dir="$PROJECT_DIR$/range2dslider-master">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.rangeTagValence.html" />
+        <item itemvalue="Node.js.jquery.js" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -115,7 +140,7 @@
       <workItem from="1641294048995" duration="6749000" />
       <workItem from="1641372590789" duration="6711000" />
       <workItem from="1644481762778" duration="17159000" />
-      <workItem from="1644526960592" duration="12523000" />
+      <workItem from="1644526960592" duration="19708000" />
     </task>
     <task id="LOCAL‎00001" summary="start">
       <created>1640883037813</created>
@@ -201,7 +226,19 @@
       <option name="presentableId" value="LOCAL‎00014" />
       <updated>1641377768772</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL‎00015" summary="upload id and sync and randomization">
+      <created>1644587043258</created>
+      <option name="number" value="LOCAL‎00015" />
+      <option name="presentableId" value="LOCAL‎00015" />
+      <updated>1644587043258</updated>
+    </task>
+    <task id="LOCAL‎00016" summary="add id slides">
+      <created>1644587073740</created>
+      <option name="number" value="LOCAL‎00016" />
+      <option name="presentableId" value="LOCAL‎00016" />
+      <updated>1644587073740</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,7 +272,9 @@
     <MESSAGE value="change in slider" />
     <MESSAGE value="change data and remove birthdate" />
     <MESSAGE value="changes in transferring pages and in sheep wolf" />
-    <option name="LAST_COMMIT_MESSAGE" value="changes in transferring pages and in sheep wolf" />
+    <MESSAGE value="upload id and sync and randomization" />
+    <MESSAGE value="add id slides" />
+    <option name="LAST_COMMIT_MESSAGE" value="add id slides" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1644513530488">
@@ -247,9 +286,10 @@
     </state>
     <state x="726" y="335" key="#com.intellij.fileTypes.FileTypeChooser/-1920.0.1280.773/0.0.1920.1040@0.0.1920.1040" timestamp="1644525574090" />
     <state x="774" y="358" key="#com.intellij.fileTypes.FileTypeChooser/-1920.229.1280.767/0.0.2048.1112@0.0.2048.1112" timestamp="1640939393273" />
-    <state x="755" y="303" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1641119513507">
-      <screen x="0" y="0" width="2048" height="1112" />
+    <state x="708" y="282" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1644763174315">
+      <screen x="0" y="0" width="1920" height="1034" />
     </state>
+    <state x="708" y="282" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1920.0.1280.769/0.0.1920.1034@0.0.1920.1034" timestamp="1644763174315" />
     <state x="755" y="303" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1920.229.1280.767/0.0.2048.1112@0.0.2048.1112" timestamp="1641119513507" />
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1644509869701">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -260,13 +300,31 @@
     </state>
     <state x="755" y="291" key="FileChooserDialogImpl/-1920.0.1280.773/0.0.1920.1040@0.0.1920.1040" timestamp="1644509826814" />
     <state x="805" y="311" key="FileChooserDialogImpl/-1920.229.1280.767/0.0.2048.1112@0.0.2048.1112" timestamp="1641321871995" />
-    <state x="617" y="276" key="Vcs.Push.Dialog.v2" timestamp="1641377773099">
-      <screen x="0" y="0" width="2048" height="1112" />
+    <state width="1876" height="271" key="GridCell.Tab.0.bottom" timestamp="1644764165064">
+      <screen x="0" y="0" width="1920" height="1034" />
     </state>
+    <state width="1876" height="271" key="GridCell.Tab.0.bottom/-1920.0.1280.769/0.0.1920.1034@0.0.1920.1034" timestamp="1644764165064" />
+    <state width="1876" height="271" key="GridCell.Tab.0.center" timestamp="1644764165064">
+      <screen x="0" y="0" width="1920" height="1034" />
+    </state>
+    <state width="1876" height="271" key="GridCell.Tab.0.center/-1920.0.1280.769/0.0.1920.1034@0.0.1920.1034" timestamp="1644764165064" />
+    <state width="1876" height="271" key="GridCell.Tab.0.left" timestamp="1644764165063">
+      <screen x="0" y="0" width="1920" height="1034" />
+    </state>
+    <state width="1876" height="271" key="GridCell.Tab.0.left/-1920.0.1280.769/0.0.1920.1034@0.0.1920.1034" timestamp="1644764165063" />
+    <state width="1876" height="271" key="GridCell.Tab.0.right" timestamp="1644764165064">
+      <screen x="0" y="0" width="1920" height="1034" />
+    </state>
+    <state width="1876" height="271" key="GridCell.Tab.0.right/-1920.0.1280.769/0.0.1920.1034@0.0.1920.1034" timestamp="1644764165064" />
+    <state x="578" y="257" key="Vcs.Push.Dialog.v2" timestamp="1644587083719">
+      <screen x="0" y="0" width="1920" height="1034" />
+    </state>
+    <state x="578" y="257" key="Vcs.Push.Dialog.v2/-1920.0.1280.769/0.0.1920.1034@0.0.1920.1034" timestamp="1644587083719" />
     <state x="617" y="276" key="Vcs.Push.Dialog.v2/-1920.229.1280.767/0.0.2048.1112@0.0.2048.1112" timestamp="1641377773099" />
-    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1644481876779">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="777" y="431" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1644759366897">
+      <screen x="0" y="0" width="1920" height="1034" />
     </state>
+    <state x="777" y="431" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.0.1280.769/0.0.1920.1034@0.0.1920.1034" timestamp="1644759366897" />
     <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.0.1280.773/0.0.1920.1040@0.0.1920.1040" timestamp="1644481876779" />
   </component>
 </project>
