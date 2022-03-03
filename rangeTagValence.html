@@ -15,11 +15,11 @@
 </head>
 <script>localStorage.clear()</script>
 
-<body id="bodyv" class="d-flex justify-content-center">
+<body id="bodyv" class="back d-flex justify-content-center">
 <div id="widget" class="m-3">
     <div id="markerbounds">
         <div id="box">
-            <img src="arousal.png" height="550" width="550">
+            <img src="arousal.png" height="470" width="480">
 
             <div id="marker"></div>
         </div>
@@ -109,7 +109,7 @@
         //syntax for rendering is:
         //  slider.render(width, height, width-range, height-range, marker size, output decimal places)
 
-        slider.draw(480,500,100,100,20,2);
+        slider.draw(480,470,100,100,20,2);
 
         // check to make sure the defaults work:
         //slider.draw();</script>
@@ -117,7 +117,7 @@
 </div>
 <div id="videodivv">
     <div class="text-xl-center">
-        <video width="1000" height="500" id="thevideov" controls>
+        <video width="720" height="420" id="thevideov" controls>
             <source src="./movies/gump.mp4" type="video/mp4">
         </video>
         <div id="btndivv" class="w-10 container px-2 p-3 d-flex  justify-content-center ">
