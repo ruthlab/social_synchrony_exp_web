@@ -19,14 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0ce3fee-586b-401b-bde4-908932d65ffa" name="Default Changelist" comment="fix bugs3">
-      <change afterPath="$PROJECT_DIR$/rangeTagValence.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/valence/arousal.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/social_synchrony_exp_web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/social_synchrony_exp_web.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
-    </list>
+    <list default="true" id="a0ce3fee-586b-401b-bde4-908932d65ffa" name="Default Changelist" comment="fix bugs3" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -142,6 +135,7 @@
       <workItem from="1641372590789" duration="6711000" />
       <workItem from="1644481762778" duration="17159000" />
       <workItem from="1644526960592" duration="19708000" />
+      <workItem from="1646300350825" duration="347000" />
     </task>
     <task id="LOCAL‎00001" summary="start">
       <created>1640883037813</created>
@@ -239,7 +233,13 @@
       <option name="presentableId" value="LOCAL‎00016" />
       <updated>1644587073740</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL‎00017" summary="update valence and background">
+      <created>1646300567426</created>
+      <option name="number" value="LOCAL‎00017" />
+      <option name="presentableId" value="LOCAL‎00017" />
+      <updated>1646300567426</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -275,7 +275,8 @@
     <MESSAGE value="changes in transferring pages and in sheep wolf" />
     <MESSAGE value="upload id and sync and randomization" />
     <MESSAGE value="add id slides" />
-    <option name="LAST_COMMIT_MESSAGE" value="add id slides" />
+    <MESSAGE value="update valence and background" />
+    <option name="LAST_COMMIT_MESSAGE" value="update valence and background" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1644513530488">
