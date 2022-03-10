@@ -20,23 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0ce3fee-586b-401b-bde4-908932d65ffa" name="Default Changelist" comment="fix bugs3">
-      <change afterPath="$PROJECT_DIR$/introId.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/introSync.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rangeTagId.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rangeTagSync.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/runControler.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sync/Slide1.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sync/Slide2.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sync/Slide3.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movies.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/id/Slide1.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/id/Slide2.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/introGaze.html" beforeDir="false" afterPath="$PROJECT_DIR$/introGaze.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/introTouch.html" beforeDir="false" afterPath="$PROJECT_DIR$/introTouch.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rangeTagGaze.html" beforeDir="false" afterPath="$PROJECT_DIR$/rangeTagGaze.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rangeTagTouch.html" beforeDir="false" afterPath="$PROJECT_DIR$/rangeTagTouch.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trail.html" beforeDir="false" afterPath="$PROJECT_DIR$/trail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rangeTagSync.html" beforeDir="false" afterPath="$PROJECT_DIR$/rangeTagSync.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +43,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="only_gaze" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -63,6 +51,29 @@
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="2" />
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="Forrest" />
+                    <option name="lastUsedInstant" value="1646894309" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1646894308" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
   </component>
   <component name="ProjectId" id="22zqxNqGv9TCvyvx65mvsWEzQxQ" />
   <component name="ProjectLevelVcsManager">
@@ -79,21 +90,21 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.16.2" />
     <property name="javascript.nodejs.core.library.typings.version" value="12.20.45" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../My-Personal-Site" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/form.html" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Git\social_synchrony_exp_web\movies" />
-      <recent name="C:\Git\social_synchrony_exp_web\gaze" />
-      <recent name="C:\Git\social_synchrony_exp_web" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Git\social_synchrony_exp_web" />
       <recent name="C:\Git\social_synchrony_exp_web\sync" />
       <recent name="C:\Git\social_synchrony_exp_web\movies" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Git\social_synchrony_exp_web\movies" />
+      <recent name="C:\Git\social_synchrony_exp_web\gaze" />
+      <recent name="C:\Git\social_synchrony_exp_web" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -255,11 +266,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/-1920.0.1280.773/0.0.1920.1040@0.0.1920.1040" timestamp="1644509869701" />
-    <state x="755" y="291" key="FileChooserDialogImpl" timestamp="1644509826814">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="805" y="311" key="FileChooserDialogImpl" timestamp="1646894651573">
+      <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="755" y="291" key="FileChooserDialogImpl/-1920.0.1280.773/0.0.1920.1040@0.0.1920.1040" timestamp="1644509826814" />
-    <state x="805" y="311" key="FileChooserDialogImpl/-1920.229.1280.767/0.0.2048.1112@0.0.2048.1112" timestamp="1641321871995" />
+    <state x="805" y="311" key="FileChooserDialogImpl/-1920.229.1280.767/0.0.2048.1112@0.0.2048.1112" timestamp="1646894651573" />
     <state x="617" y="276" key="Vcs.Push.Dialog.v2" timestamp="1641377773099">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
