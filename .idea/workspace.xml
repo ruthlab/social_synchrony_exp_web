@@ -21,11 +21,9 @@
   <component name="ChangeListManager">
     <list default="true" id="a0ce3fee-586b-401b-bde4-908932d65ffa" name="Default Changelist" comment="fix bugs3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies.json" beforeDir="false" afterPath="$PROJECT_DIR$/movies.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rangeTagGaze.html" beforeDir="false" afterPath="$PROJECT_DIR$/rangeTagGaze.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rangeTagSync.html" beforeDir="false" afterPath="$PROJECT_DIR$/rangeTagSync.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rangeTagId.html" beforeDir="false" afterPath="$PROJECT_DIR$/rangeTagId.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rangeTagTouch.html" beforeDir="false" afterPath="$PROJECT_DIR$/rangeTagTouch.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +141,7 @@
       <workItem from="1644481762778" duration="17159000" />
       <workItem from="1644526960592" duration="19708000" />
       <workItem from="1646300350825" duration="347000" />
-      <workItem from="1646899492131" duration="3881000" />
+      <workItem from="1646899492131" duration="5512000" />
     </task>
     <task id="LOCAL‎00001" summary="start">
       <created>1640883037813</created>
@@ -253,7 +251,13 @@
       <option name="presentableId" value="LOCAL‎00018" />
       <updated>1646899709251</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL‎00019" summary="change source to forrest from drive">
+      <created>1646904585770</created>
+      <option name="number" value="LOCAL‎00019" />
+      <option name="presentableId" value="LOCAL‎00019" />
+      <updated>1646904585770</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -291,7 +295,8 @@
     <MESSAGE value="add id slides" />
     <MESSAGE value="update valence and background" />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="change source to forrest from drive" />
+    <option name="LAST_COMMIT_MESSAGE" value="change source to forrest from drive" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1644513530488">
@@ -333,11 +338,11 @@
       <screen x="0" y="0" width="1920" height="1034" />
     </state>
     <state width="1876" height="271" key="GridCell.Tab.0.right/-1920.0.1280.769/0.0.1920.1034@0.0.1920.1034" timestamp="1644764165064" />
-    <state x="617" y="276" key="Vcs.Push.Dialog.v2" timestamp="1646899712315">
+    <state x="617" y="276" key="Vcs.Push.Dialog.v2" timestamp="1646904588669">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="578" y="257" key="Vcs.Push.Dialog.v2/-1920.0.1280.769/0.0.1920.1034@0.0.1920.1034" timestamp="1644587083719" />
-    <state x="617" y="276" key="Vcs.Push.Dialog.v2/-1920.229.1280.767/0.0.2048.1112@0.0.2048.1112" timestamp="1646899712315" />
+    <state x="617" y="276" key="Vcs.Push.Dialog.v2/-1920.229.1280.767/0.0.2048.1112@0.0.2048.1112" timestamp="1646904588669" />
     <state x="829" y="464" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1646899680080">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
