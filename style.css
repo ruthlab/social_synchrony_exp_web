@@ -9,6 +9,9 @@
 .w-10 {
     width:10%;
 }
+.back{
+    background-color: black;
+}
 
 .videotag {
     height: 100%;
@@ -47,6 +50,34 @@
     background: dodgerblue;
     cursor: pointer;
 }
+
+
+#widget {
+}
+#markerbounds {
+    margin: auto;
+    position: relative;
+}
+
+#box {
+    margin: auto;
+    position: absolute;
+}
+
+#marker {
+    position: relative;
+    background-color: brown;
+    border-radius: 100px;
+}
+
+#coord {
+    font-family: serif;
+    font-size: 14px;
+    margin: 0px;
+}
+
+#bodyv {
+    background-color: black!important;
 
 .bl{
     background-color: black;
