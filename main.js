@@ -87,11 +87,12 @@ function continueForm() {
     var age = document.getElementById("infoForm").ageInput.value;
     var sex = document.getElementById("infoForm").sexInput.value;
     var seenMovie = document.getElementById("infoForm").seenMovieInput.value;
+    var activity = document.getElementById("infoForm").activity.value;
     var education = document.getElementById("infoForm").educationInput.value;
     var live = document.getElementById("infoForm").liveInput.value;
 
-    if (!(isEmptyOrNull(age) || isEmptyOrNull(sex) || isEmptyOrNull(seenMovie) || isEmptyOrNull(education) || isEmptyOrNull(live))) {
-        setStorage("personalInfo", {'age' : age, 'sex' : sex, 'seenMovie' : seenMovie,  'education' : education, 'live' : live});
+    if (!(isEmptyOrNull(age) || isEmptyOrNull(sex) || isEmptyOrNull(seenMovie) || isEmptyOrNull(education) || isEmptyOrNull(activity) || isEmptyOrNull(live))) {
+        setStorage("personalInfo", {'age' : age, 'sex' : sex, 'seenMovie' : seenMovie,  'education' : education, 'live' : live, 'activity': activity});
         window.location = 'trailIntro.html';
     } else {
         alert('אנא מלא/י את כל הפרטים');
