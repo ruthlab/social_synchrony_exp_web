@@ -20,10 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0ce3fee-586b-401b-bde4-908932d65ffa" name="Default Changelist" comment="fix bugs3">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rangeTagGaze.html" beforeDir="false" afterPath="$PROJECT_DIR$/rangeTagGaze.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rangeTagId.html" beforeDir="false" afterPath="$PROJECT_DIR$/rangeTagId.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rangeTagTouch.html" beforeDir="false" afterPath="$PROJECT_DIR$/rangeTagTouch.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,6 +140,7 @@
       <workItem from="1644526960592" duration="19708000" />
       <workItem from="1646300350825" duration="347000" />
       <workItem from="1646899492131" duration="5512000" />
+      <workItem from="1647125873569" duration="314000" />
     </task>
     <task id="LOCAL‎00001" summary="start">
       <created>1640883037813</created>

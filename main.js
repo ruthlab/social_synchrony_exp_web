@@ -170,18 +170,12 @@ function playVid(type) {
         SecondDataTag()
     }
 }
-var movies = {
-    "forest1": "https://rr5---sn-4g5e6ns6.c.drive.google.com/videoplayback?expire=1646918686&ei=3sMpYs_MC-GLpb0P-e-9oAs&ip=2a00:a040:1a0:ed5c:471:ba69:63ce:fed6&cp=QVRJWEpfV1ZWR1hPOkNkVXd2a3ZVc1JJQlZTM01aWjY2a3BHVEg4WTYzY1dudmlGRGdWMGpaeGQ&id=6e3052f62b8a58da&itag=18&source=webdrive&requiressl=yes&mh=Wm&mm=32&mn=sn-4g5e6ns6&ms=su&mv=m&mvi=5&pl=51&ttl=transient&susc=dr&driveid=114uoRqUOinu7VSff0Ec1QUo2LJyHEY_r&app=explorer&mime=video/mp4&vprv=1&prv=1&dur=361.534&lmt=1645720917801526&mt=1646904033&txp=0011224&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,vprv,prv,dur,lmt&sig=AOq0QJ8wRQIhAPz4-Gf-bSYXciqgFLu--eIQupzajzhHK4NmFTIyiGfKAiBq31e-4s7VDEcWiBrij6h59opffCI1Z-UwLMZi7eoUvQ==&lsparams=mh,mm,mn,ms,mv,mvi,pl&lsig=AG3C_xAwRgIhAJj7CeebBx0gw_sgaUzLMUS2Jm0K1heez4Qw-ht4YtSXAiEA94CAMjAkWeJ2srursodtRD8KHKGGK9QyN5gF5-KDUAE=&cpn=yLNa0hRKQxlobLCp&c=WEB_EMBEDDED_PLAYER&cver=1.20220308.01.00",
-    "forest2": "https://rr1---sn-4g5ednsk.c.drive.google.com/videoplayback?expire=1646918725&ei=BcQpYqKVG7DZwtQPi7eO4AQ&ip=2a00:a040:1a0:ed5c:471:ba69:63ce:fed6&cp=QVRJWEpfV1dQRlhPOkNkVXd3ZXVVc1JJQlZTNEdZWjY2a3BHVEkyWDYzY1dudmlHWGZWMGpaeGQ&id=7c95905d58c34617&itag=18&source=webdrive&requiressl=yes&mh=bA&mm=32&mn=sn-4g5ednsk&ms=su&mv=m&mvi=1&pl=51&ttl=transient&susc=dr&driveid=1-xIChAc57UAlbMbDOUCo6hBED3beNDib&app=explorer&mime=video/mp4&vprv=1&prv=1&dur=363.461&lmt=1645741381696981&mt=1646904033&txp=0011224&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,vprv,prv,dur,lmt&sig=AOq0QJ8wRAIgLJrQAc7C7UtuL6FU7vjCGXGphUtAztsVx4glbogZ__gCIAw4Zq9QRh5j3MN9cD0ihl5d3qav8awHgZkt9M72Zv31&lsparams=mh,mm,mn,ms,mv,mvi,pl&lsig=AG3C_xAwRQIgCgL6Iq0-gcBiekJxeSG6xo0DaLwwdwFA6rwFOnnqFaECIQDKBCb8MidE3AJgdWXSipWy3NWy9QlWTxgXDWZnTFyVpg==&cpn=NJhxkJdrnVZL8J_D&c=WEB_EMBEDDED_PLAYER&cver=1.20220308.01.00",
-    "forest3":"https://rr3---sn-4g5e6nz7.c.drive.google.com/videoplayback?expire=9646909433&amp;ei=uZ8pYsy3JdP9zLUPmfyOgA4&amp;ip=2a00:a040:1a0:ed5c:471:ba69:63ce:fed6&amp;cp=QVRJWEpfWFRRRFhPOm5QbG84ZVpvWmI2VXdDUGJ2VDUxbHVLVi1icnRNN3hvSVpOMHg4NkFUWGs&amp;id=b3d6ae420187a7c3&amp;itag=18&amp;source=webdrive&amp;requiressl=yes&amp;mh=hP&amp;mm=32&amp;mn=sn-4g5e6nz7&amp;ms=su&amp;mv=m&amp;mvi=3&amp;pl=52&amp;ttl=transient&amp;susc=dr&amp;driveid=1-G3ZsFBFepdthLhp9SyM1vbfadbl-CVb&amp;app=explorer&amp;mime=video/mp4&amp;vprv=1&amp;prv=1&amp;dur=363.763&amp;lmt=1645714928442423&amp;mt=1646894902&amp;txp=0011224&amp;sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,vprv,prv,dur,lmt&amp;sig=AOq0QJ8wRAIgXvnnBabRDeC_-NWOLQ5AplxfGNf247x7gw1QzGC2dkcCIAwXZWTaV903gS-ts_eMu3nQG8K8AqyPykz_xf605l4D&amp;lsparams=mh,mm,mn,ms,mv,mvi,pl&amp;lsig=AG3C_xAwRAIgZ8VBWdeXVvsyzZWAxWkIKcodGtU32ZraTV6YqZFf8NACIFMuVI42OAmbDbKOOZRj1Wr07EglSSzRKAazrHxYj2Xj&amp;cpn=ZAD9A57n881fCx7H&amp;c=WEB_EMBEDDED_PLAYER&amp;cver=1.20220308.01.00",
-}
-
 
 function loadVideo(type){
     if (getStorage("trail1") == type){
         var vid1 = document.getElementById('thevideo'+ getStorage("trail1")[0].toLowerCase())
         var source1 = document.createElement("source");
-        source1.setAttribute("src", movies[getStorage("movie1")])
+        source1.setAttribute("src","movies/" + getStorage("movie1") + ".mp4" )
         source1.setAttribute("type", "video/mp4")
         vid1.appendChild(source1);
 
@@ -189,7 +183,7 @@ function loadVideo(type){
     else{
         var vid2 = document.getElementById('thevideo'+ getStorage("trail2")[0].toLowerCase())
         var source2 = document.createElement("source");
-        source2.setAttribute("src", movies[getStorage("movie2")])
+        source2.setAttribute("src", "movies/" + getStorage("movie2") + ".mp4" )
         source2.setAttribute("type", "video/mp4")
         vid2.appendChild(source2);
     }
