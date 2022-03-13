@@ -83,6 +83,45 @@ function setStorage(key, val) {
     localStorage.setItem('expStorage', JSON.stringify(obj));
 }
 
+function continueQuestions(){
+    var lead = document.getElementById("infoForm").lead.value;
+    var feelings_of_movie = document.getElementById("infoForm").feelings_of_movie.value;
+    var relay_on_feeling = document.getElementById("infoForm").relay_on_feeling.value;
+
+    if (!(isEmptyOrNull(lead) || isEmptyOrNull(feelings_of_movie) || isEmptyOrNull(relay_on_feeling))) {
+        setStorage("Questions ", {'lead' : lead, 'feelings_of_movie' : feelings_of_movie, 'relay_on_feeling' : relay_on_feeling});
+        if (getStorage(getStorage("trail2")) == undefined) {
+            window.location = "intro"+ getStorage("trail2") +".html";
+        }
+        else{
+            var body = document.getElementById('body')
+            var div = document.getElementById("div")
+            body.removeChild(div);
+            var diver = document.createElement("div");
+            diver.classList.add("text-xl-center");
+            var debrief = document.createElement("img");
+            debrief.classList.add("w-75");
+            debrief.src="debrief.png";
+            diver.appendChild(debrief);
+            body.appendChild(diver);
+            var btn = document.createElement('button');
+            var text = document.createTextNode("הורד תוצאות");
+            btn.appendChild(text);
+            btn.classList.add("btn");
+            btn.classList.add("btn-primary");
+            btn.classList.add("my-1");
+            btn.setAttribute("onclick","onDownload();");
+            var br = document.createElement('br');
+            uploadFileExample("result "+Date.now().toString() +".json", "application/json", "1PWmDDeCRfEgn602o3mQjEDIJnDq8gZDn", JSON.stringify(JSON.parse(localStorage.getItem('expStorage'))), access_token)
+            onDownload();
+            body.appendChild(br);
+            body.appendChild(btn);
+        }
+    } else {
+        alert('אנא מלא/י את כל הפרטים');
+    }
+}
+
 function continueForm() {
     var age = document.getElementById("infoForm").ageInput.value;
     var sex = document.getElementById("infoForm").sexInput.value;
@@ -92,7 +131,7 @@ function continueForm() {
     var live = document.getElementById("infoForm").liveInput.value;
 
     if (!(isEmptyOrNull(age) || isEmptyOrNull(sex) || isEmptyOrNull(seenMovie) || isEmptyOrNull(education) || isEmptyOrNull(activity) || isEmptyOrNull(live))) {
-        setStorage("personalInfo", {'age' : age, 'sex' : sex, 'seenMovie' : seenMovie,  'education' : education, 'live' : live, 'activity': activity});
+        setStorage("personalInfo", {'age' : age, 'sex' : sex, 'seenMovie' : seenMovie,  'education' : education, 'live' : live, 'sync_time': activity});
         window.location = 'trailIntro.html';
     } else {
         alert('אנא מלא/י את כל הפרטים');
@@ -207,31 +246,8 @@ function firstDataTag(){
         }
         else {
             window.clearInterval(interval);
-            var body = document.getElementById('body'+ type[0].toLowerCase())
-            var videodiv = document.getElementById('videodiv'+ type[0].toLowerCase())
-            body.removeChild(videodiv);
-            var diver = document.createElement("div");
-            diver.classList.add("text-xl-center");
-            var tutorial = document.createElement("img");
-            tutorial.classList.add("w-50");
-            tutorial.src="next_movie.png";
-            var btn = document.createElement('button');
-            var link = document.createElement('a');
-            var next = document.createTextNode("המשך");
-            btn.classList.add("btn");
-            btn.classList.add("btn-primary");
-            btn.classList.add("my-1");
-            link.classList.add("text-decoration-none");
-            link.classList.add("text-white");
-            link.appendChild(next);
-            link.href = "intro"+ getStorage("trail2") + ".html";
-            btn.appendChild(link);
-            var br = document.createElement('br');
+            window.location = 'transition.html';
 
-            diver.appendChild(tutorial);
-            body.appendChild(diver);
-            body.appendChild(br);
-            body.appendChild(btn);
         }
         } , 100);
 
@@ -255,28 +271,7 @@ function SecondDataTag(){
         }
         else {
             window.clearInterval(interval);
-            var body = document.getElementById('body'+ type[0].toLowerCase())
-            var videodiv = document.getElementById('videodiv'+ type[0].toLowerCase())
-            body.removeChild(videodiv);
-            var diver = document.createElement("div");
-            diver.classList.add("text-xl-center");
-            var debrief = document.createElement("img");
-            debrief.classList.add("w-75");
-            debrief.src="debrief.png";
-            diver.appendChild(debrief);
-            body.appendChild(diver);
-            var btn = document.createElement('button');
-            var text = document.createTextNode("הורד תוצאות");
-            btn.appendChild(text);
-            btn.classList.add("btn");
-            btn.classList.add("btn-primary");
-            btn.classList.add("my-1");
-            btn.setAttribute("onclick","onDownload();");
-            var br = document.createElement('br');
-            uploadFileExample("result "+Date.now().toString() +".json", "application/json", "1PWmDDeCRfEgn602o3mQjEDIJnDq8gZDn", JSON.stringify(JSON.parse(localStorage.getItem('expStorage'))), access_token)
-            onDownload();
-            body.appendChild(br);
-            body.appendChild(btn);
+            window.location = 'transition.html';
         }
     } , 100);
 

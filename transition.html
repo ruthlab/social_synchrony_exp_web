@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+    <script type="text/javascript" src="main.js"></script>
+    <title>social synchrony</title>
+</head>
+<body class="bl text-white he-text text-xl-center" id="body" >
+<div id="div">
+<br><br><br><br><br><br><br><br>
+<p1>מספר שאלות בנושא המשימה שביצעת: </p1>
+
+<form class="text-xl-center form-inline" id="infoForm">
+<br>
+<label class="my-1 mr-2" for="lead"> עד כמה הדירוג שלך הסתמך על מה שעבר על הגיבור\הדמות הראשית בסרט</label>
+<select class="custom-select my-1 mr-sm-2" id="lead" name="lead">
+    <option selected></option>
+    <option value="1">1 (כלל לא)</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5 (במידה רבה מאוד)</option>
+</select>
+<br>
+<label class="my-1 mr-2" for="feelings_of_movie">עד כמה הדרוג שלך התבסס על שקלול הרגשות של הדמויות השונות</label>
+<select class="custom-select my-1 mr-sm-2" id="feelings_of_movie" name="feelings_of_movie">
+    <option selected></option>
+    <option value="1">1 (כלל לא)</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5 (במידה רבה מאוד)</option>
+</select>
+<br>
+<label class="my-1 mr-2" for="relay_on_feeling">עד כמה הדירוג שלך הסתמך על הרגש שהתעורר אצלך</label>
+<select class="custom-select my-1 mr-sm-2" id="relay_on_feeling" name="relay_on_feeling">
+    <option selected></option>
+    <option value="1">1 (כלל לא)</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5 (במידה רבה מאוד)</option>
+</select>
+<br><br>
+</form>
+<button class="btn btn-primary my-1" onclick="continueQuestions()" target="_self">המשך</button>
+</div>
+</body>
+</html>
