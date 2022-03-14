@@ -89,11 +89,12 @@ function continueQuestions(){
     var relay_on_feeling = document.getElementById("infoForm").relay_on_feeling.value;
 
     if (!(isEmptyOrNull(lead) || isEmptyOrNull(feelings_of_movie) || isEmptyOrNull(relay_on_feeling))) {
-        setStorage("Questions ", {'lead' : lead, 'feelings_of_movie' : feelings_of_movie, 'relay_on_feeling' : relay_on_feeling});
         if (getStorage(getStorage("trail2")) == undefined) {
+            setStorage("Questions " + getStorage("trail1") , {'lead' : lead, 'feelings_of_movie' : feelings_of_movie, 'relay_on_feeling' : relay_on_feeling});
             window.location = "intro"+ getStorage("trail2") +".html";
         }
         else{
+            setStorage("Questions " + getStorage("trail2") , {'lead' : lead, 'feelings_of_movie' : feelings_of_movie, 'relay_on_feeling' : relay_on_feeling});
             var body = document.getElementById('body')
             var div = document.getElementById("div")
             body.removeChild(div);
@@ -338,7 +339,6 @@ function onDownload(){
 }
 
 function playVidTrail() {
-    randomizer();
     var vid = document.getElementById('mighty');
     vid.play();
     var btndiv = document.getElementById('btndivtr');
@@ -371,16 +371,16 @@ function dataTagTrail(){
             var tutorial = document.createElement("img");
             tutorial.classList.add("w-50");
             tutorial.src="slider_tutorial_3.png";
-            var btn = document.createElement('button');
-            var link = document.createElement('a');
-            var next = document.createTextNode("המשך");
+            let btn = document.createElement('button');
+            let link = document.createElement('a');
+            let next = document.createTextNode("המשך");
             btn.classList.add("btn");
             btn.classList.add("btn-primary");
             btn.classList.add("my-1");
             link.classList.add("text-decoration-none");
             link.classList.add("text-white");
             link.appendChild(next);
-            link.href = "intro"+ getStorage("trail1") +".html";
+            link.href = "intro"+ JSON.parse(localStorage.getItem('expStorage'))['trail1'] +".html";
             btn.appendChild(link);
             var br = document.createElement('br');
 
