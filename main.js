@@ -95,6 +95,48 @@ function continueQuestions(){
         }
         else{
             setStorage("Questions " + getStorage("trail2") , {'lead' : lead, 'feelings_of_movie' : feelings_of_movie, 'relay_on_feeling' : relay_on_feeling});
+            window.location = "IRI.html";
+        }
+    } else {
+        alert('אנא מלא/י את כל הפרטים');
+    }
+}
+
+function IRI(){
+    var q1 = document.getElementById("infoForm").q1.value;
+    var q2 = document.getElementById("infoForm").q2.value;
+    var q3 = document.getElementById("infoForm").q3.value;
+    var q4 = document.getElementById("infoForm").q4.value;
+    var q5 = document.getElementById("infoForm").q5.value;
+    var q6 = document.getElementById("infoForm").q6.value;
+    var q7 = document.getElementById("infoForm").q7.value;
+    var q8 = document.getElementById("infoForm").q8.value;
+    var q9 = document.getElementById("infoForm").q9.value;
+    var q10 = document.getElementById("infoForm").q10.value;
+    var q11 = document.getElementById("infoForm").q11.value;
+    var q12 = document.getElementById("infoForm").q12.value;
+    var q13 = document.getElementById("infoForm").q13.value;
+    var q14 = document.getElementById("infoForm").q14.value;
+    var q15 = document.getElementById("infoForm").q15.value;
+    var q16 = document.getElementById("infoForm").q16.value;
+    var q17 = document.getElementById("infoForm").q17.value;
+    var q18 = document.getElementById("infoForm").q18.value;
+    var q19 = document.getElementById("infoForm").q19.value;
+    var q20 = document.getElementById("infoForm").q20.value;
+    var q21 = document.getElementById("infoForm").q21.value;
+    var q22 = document.getElementById("infoForm").q22.value;
+    var q23 = document.getElementById("infoForm").q23.value;
+    var q24 = document.getElementById("infoForm").q24.value;
+    var q25 = document.getElementById("infoForm").q25.value;
+    var q26 = document.getElementById("infoForm").q26.value;
+    var q27 = document.getElementById("infoForm").q27.value;
+    var q28 = document.getElementById("infoForm").q28.value;
+
+    if (!(isEmptyOrNull(q1) || isEmptyOrNull(q2) || isEmptyOrNull(q3))) {
+        if (getStorage(getStorage("trail2")) != undefined) {
+            setStorage("IRI" , {'q1' : q1, 'q2' : q2, 'q3' : q3, 'q4' : q4, 'q5' : q5, 'q6' : q6, 'q7' : q7, 'q8' : q8, 'q9' : q9,
+                'q10' : q10, 'q11' : q11, 'q12' : q12, 'q13' : q13, 'q14' : q14, 'q15' : q15, 'q16' : q16, 'q17' : q17, 'q18' : q18, 'q19' : q19,
+                'q20' : q20, 'q21' : q21, 'q22' : q22, 'q23' : q23, 'q24' : q24, 'q25' : q25, 'q26' : q26, 'q27' : q27, 'q28' : q28});
             var body = document.getElementById('body')
             var div = document.getElementById("div")
             body.removeChild(div);
@@ -122,6 +164,7 @@ function continueQuestions(){
         alert('אנא מלא/י את כל הפרטים');
     }
 }
+
 
 function continueForm() {
     var age = document.getElementById("infoForm").ageInput.value;
