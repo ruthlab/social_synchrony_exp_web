@@ -227,7 +227,8 @@ function jsonRunReader(json){
 }
 function getFileExample(accessToken) {
 
-    fetch( "https://www.googleapis.com/drive/v2/files/1Z49XaLlvh75kCrWMExHwiS8zXWnHC-WH?alt=media", {
+
+    fetch( "https://www.googleapis.com/drive/v2/files/1_SRctvfSJwUNOpLfvCy7Kfc7l-d7fWIQ?alt=media", {
         method: "GET",
         headers: new Headers({ "Authorization": "Bearer " + accessToken })
     }).then( function( response ){
@@ -529,7 +530,7 @@ function updateFileExample(fileName, type, parent, data, accessToken) {
     formData.append( "metadata", new Blob( [JSON.stringify( metadata )], {type: type} ));
     formData.append( "file", data );
 
-    fetch( "https://www.googleapis.com/upload/drive/v2/files/1Z49XaLlvh75kCrWMExHwiS8zXWnHC-WH?uploadType=multipart", {
+    fetch( "https://www.googleapis.com/upload/drive/v2/files/1_SRctvfSJwUNOpLfvCy7Kfc7l-d7fWIQ?uploadType=multipart", {
         method: "PUT",
         headers: new Headers({ "Authorization": "Bearer " + accessToken }),
         body: formData

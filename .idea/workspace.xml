@@ -20,9 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0ce3fee-586b-401b-bde4-908932d65ffa" name="Default Changelist" comment="fix bugs3">
-      <change afterPath="$PROJECT_DIR$/slides.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slides.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,8 +56,8 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="valence_arousal_clean" />
-                    <option name="lastUsedInstant" value="1644760026" />
+                    <option name="branchName" value="dev" />
+                    <option name="lastUsedInstant" value="1648566050" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="main" />
@@ -145,6 +144,7 @@
       <workItem from="1647125873569" duration="6881000" />
       <workItem from="1647172145695" duration="23301000" />
       <workItem from="1647773149085" duration="6461000" />
+      <workItem from="1648491562519" duration="4997000" />
     </task>
     <task id="LOCAL‎00001" summary="start">
       <created>1640883037813</created>
@@ -326,7 +326,13 @@
       <option name="presentableId" value="LOCAL‎00030" />
       <updated>1647417666006</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL‎00031" summary="IRI shortcut">
+      <created>1648538169677</created>
+      <option name="number" value="LOCAL‎00031" />
+      <option name="presentableId" value="LOCAL‎00031" />
+      <updated>1648538169677</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -346,7 +352,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="fix bugs2" />
     <MESSAGE value="fix bugs3" />
     <MESSAGE value="local storage" />
     <MESSAGE value="download file" />
@@ -371,7 +376,8 @@
     <MESSAGE value="fix random" />
     <MESSAGE value="update movie" />
     <MESSAGE value="update slides" />
-    <option name="LAST_COMMIT_MESSAGE" value="update slides" />
+    <MESSAGE value="IRI shortcut" />
+    <option name="LAST_COMMIT_MESSAGE" value="IRI shortcut" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1644513530488">
@@ -413,19 +419,20 @@
       <screen x="0" y="0" width="1920" height="1034" />
     </state>
     <state width="1876" height="271" key="GridCell.Tab.0.right/-1920.0.1280.769/0.0.1920.1034@0.0.1920.1034" timestamp="1644764165064" />
-    <state x="617" y="276" key="Vcs.Push.Dialog.v2" timestamp="1647417704872">
+    <state x="617" y="276" key="Vcs.Push.Dialog.v2" timestamp="1648538199383">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="578" y="257" key="Vcs.Push.Dialog.v2/-1920.0.1280.769/0.0.1920.1034@0.0.1920.1034" timestamp="1644587083719" />
     <state x="-1534" y="420" key="Vcs.Push.Dialog.v2/-1920.229.1280.767/0.0.2048.1112@-1920.229.1280.767" timestamp="1647280546363" />
-    <state x="617" y="276" key="Vcs.Push.Dialog.v2/-1920.229.1280.767/0.0.2048.1112@0.0.2048.1112" timestamp="1647417704872" />
+    <state x="617" y="276" key="Vcs.Push.Dialog.v2/-1920.229.1280.767/0.0.2048.1112@0.0.2048.1112" timestamp="1648538199383" />
     <state x="386" y="189" key="Vcs.Push.Dialog.v2/0.0.1280.760@0.0.1280.760" timestamp="1647357625767" />
-    <state x="829" y="464" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1647778522757">
-      <screen x="0" y="0" width="2048" height="1112" />
+    <state x="518" y="317" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1648566042842">
+      <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="777" y="431" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.0.1280.769/0.0.1920.1034@0.0.1920.1034" timestamp="1644759366897" />
     <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.0.1280.773/0.0.1920.1040@0.0.1920.1040" timestamp="1644481876779" />
     <state x="829" y="464" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.229.1280.767/0.0.2048.1112@0.0.2048.1112" timestamp="1647778522757" />
+    <state x="518" y="317" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.760@0.0.1280.760" timestamp="1648566042842" />
     <state x="518" y="321" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.769@0.0.1280.769" timestamp="1645603693019" />
   </component>
 </project>
