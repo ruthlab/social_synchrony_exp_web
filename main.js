@@ -240,7 +240,6 @@ function randomizer() {
     setTimeout(function () {getFileExample(access_token)}, 5000)
 }
 
-
 function playVid(type) {
     var vid = document.getElementById('thevideo' + type[0].toLowerCase());
     vid.play();
