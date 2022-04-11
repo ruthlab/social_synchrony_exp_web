@@ -13,9 +13,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
 
 </head>
-<script>localStorage.clear()</script>
 
-<body id="bodyv" class="back d-flex justify-content-center">
+<body onLoad="loadVideo('Valence')" class="bl text-white he-text d-flex justify-content-center" id="bodyv">
 <div id="widget" class="m-3">
     <div id="markerbounds">
         <div id="box">
@@ -117,11 +116,11 @@
 </div>
 <div id="videodivv">
     <div class="text-xl-center">
-        <video width="720" height="420" id="thevideov" controls>
-            <source src="./movies/gump.mp4" type="video/mp4">
+        <video width="720" height="420" id="thevideov">
+
         </video>
         <div id="btndivv" class="w-10 container px-2 p-3 d-flex  justify-content-center ">
-            <button class="btn px-2 btn-secondary" onclick="playVidVal()" type="button" id="playbtnv">התחל</button>
+            <button class="btn px-2 btn-secondary" onclick="playVid('Valence')" type="button" id="playbtnv">התחל</button>
         </div>
     </div>
 </div>
