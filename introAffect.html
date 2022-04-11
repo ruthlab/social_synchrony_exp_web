@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link href="style.css" rel="stylesheet">
+<script type="text/javascript" src="main.js"></script>
+<title>social synchrony</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+
+<style>
+    * {box-sizing: border-box}
+    .mySlides1 {display: none}
+    img {vertical-align: middle;}
+
+    /* Slideshow container */
+    .slideshow-container {
+        max-width: 65%;
+        position: relative;
+        margin: auto;
+        direction: ltr;
+    }
+    .he-text{
+        direction: rtl;
+    }
+
+    /* Next & previous buttons */
+    .prev, .next {
+        cursor: pointer;
+        width: auto;
+        padding: 16px;
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+    }
+
+    /* Position the "next button" to the right */
+    .next {
+        border-radius: 7px 0 0 3px;
+    }
+
+    /* On hover, add a grey background color */
+    .prev, .next {
+        background-color: #f1f1f1;
+        color: black;
+    }
+    .numbertext {
+        color: #f2f2f2;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+    }
+</style>
+</head>
+
+<body class="bl text-white he-text">
+<div class="slideshow-container">
+    <div class="mySlides1">
+        <div class="numbertext">1 / 6</div>
+        <img src="affect/Slide1.png" style="width:100%">
+    </div>
+
+    <div class="mySlides1">
+        <div class="numbertext">2 / 6</div>
+
+        <img src="affect/Slide2.png" style="width:100%">
+    </div>
+
+    <div class="mySlides1">
+        <div class="numbertext">3 / 6</div>
+        <img src="affect/Slide3.png" style="width:100%">
+    </div>
+    <div class="mySlides1">
+        <div class="numbertext">4 / 6</div>
+
+        <img src="affect/Slide4.png" style="width:100%">
+    </div>
+    <div class="mySlides1">
+        <div class="numbertext">5 / 6</div>
+
+        <img src="affect/Slide5.png" style="width:100%">
+    </div>
+    <div class="mySlides1">
+        <div class="numbertext">6 / 6</div>
+        <img src="affect/Slide6.png" style="width:100%">
+    </div>
+
+</div>
+
+<div class="text-xl-center">
+    <a class="next text-decoration-none" onclick="plusSlides(1, 0)">הבא</a>
+    <a class="prev text-decoration-none" onclick="plusSlides(-1, 0)">הקודם</a>
+    <br>
+    <div id="nextbtn">
+        <br>
+
+    </div>
+</div>
+<script>
+    var slideIndex = [1,1];
+    var slideId = ["mySlides1"]
+    showSlides(1, 0);
+    var counter = true
+
+    function plusSlides(n, no) {
+        showSlides(slideIndex[no] += n, no);
+        if (slideIndex[no] == 6 && counter){
+            counter = false;
+            let nextbtn = document.getElementById('nextbtn');
+            let btn = document.createElement('button');
+            let link = document.createElement('a');
+            let next = document.createTextNode("המשך");
+            btn.classList.add("btn");
+            btn.classList.add("btn-primary");
+            btn.classList.add("my-1");
+            link.classList.add("text-decoration-none");
+            link.classList.add("text-white");
+            link.appendChild(next);
+            link.href = "rangeTagAffect.html";
+            link.target ="_self"
+            btn.appendChild(link);
+            nextbtn.appendChild(btn);
+
+        }
+    }
+
+    function showSlides(n, no) {
+        var i;
+        var x = document.getElementsByClassName(slideId[no]);
+        if (n > x.length) {slideIndex[no] = 1}
+        if (n < 1) {slideIndex[no] = x.length}
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        x[slideIndex[no]-1].style.display = "block";
+    }
+</script>
+
+</body>
+</html>
