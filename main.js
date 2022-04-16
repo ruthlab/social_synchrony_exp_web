@@ -133,33 +133,31 @@ function IRI(){
     var q28 = document.getElementById("infoForm").q28.value;
 
     if (!(isEmptyOrNull(q1) || isEmptyOrNull(q2) || isEmptyOrNull(q3))) {
-        if (getStorage(getStorage("trail2")) != undefined) {
-            setStorage("IRI" , {'q1' : q1, 'q2' : q2, 'q3' : q3, 'q4' : q4, 'q5' : q5, 'q6' : q6, 'q7' : q7, 'q8' : q8, 'q9' : q9,
-                'q10' : q10, 'q11' : q11, 'q12' : q12, 'q13' : q13, 'q14' : q14, 'q15' : q15, 'q16' : q16, 'q17' : q17, 'q18' : q18, 'q19' : q19,
-                'q20' : q20, 'q21' : q21, 'q22' : q22, 'q23' : q23, 'q24' : q24, 'q25' : q25, 'q26' : q26, 'q27' : q27, 'q28' : q28});
-            var body = document.getElementById('body')
-            var div = document.getElementById("div")
-            body.removeChild(div);
-            var diver = document.createElement("div");
-            diver.classList.add("text-xl-center");
-            var debrief = document.createElement("img");
-            debrief.classList.add("w-75");
-            debrief.src="debrief.png";
-            diver.appendChild(debrief);
-            body.appendChild(diver);
-            var btn = document.createElement('button');
-            var text = document.createTextNode("הורד תוצאות");
-            btn.appendChild(text);
-            btn.classList.add("btn");
-            btn.classList.add("btn-primary");
-            btn.classList.add("my-1");
-            btn.setAttribute("onclick","onDownload();");
-            var br = document.createElement('br');
-            uploadFileExample("result "+Date.now().toString() +".json", "application/json", "1PWmDDeCRfEgn602o3mQjEDIJnDq8gZDn", JSON.stringify(JSON.parse(localStorage.getItem('expStorage'))), access_token)
-            onDownload();
-            body.appendChild(br);
-            body.appendChild(btn);
-        }
+        setStorage("IRI" , {'q1' : q1, 'q2' : q2, 'q3' : q3, 'q4' : q4, 'q5' : q5, 'q6' : q6, 'q7' : q7, 'q8' : q8, 'q9' : q9,
+            'q10' : q10, 'q11' : q11, 'q12' : q12, 'q13' : q13, 'q14' : q14, 'q15' : q15, 'q16' : q16, 'q17' : q17, 'q18' : q18, 'q19' : q19,
+            'q20' : q20, 'q21' : q21, 'q22' : q22, 'q23' : q23, 'q24' : q24, 'q25' : q25, 'q26' : q26, 'q27' : q27, 'q28' : q28});
+        var body = document.getElementById('body')
+        var div = document.getElementById("div")
+        body.removeChild(div);
+        var diver = document.createElement("div");
+        diver.classList.add("text-xl-center");
+        var debrief = document.createElement("img");
+        debrief.classList.add("w-75");
+        debrief.src="debrief.png";
+        diver.appendChild(debrief);
+        body.appendChild(diver);
+        var btn = document.createElement('button');
+        var text = document.createTextNode("הורד תוצאות");
+        btn.appendChild(text);
+        btn.classList.add("btn");
+        btn.classList.add("btn-primary");
+        btn.classList.add("my-1");
+        btn.setAttribute("onclick","onDownload();");
+        var br = document.createElement('br');
+        uploadFileExample("result "+Date.now().toString() +".json", "application/json", "1PWmDDeCRfEgn602o3mQjEDIJnDq8gZDn", JSON.stringify(JSON.parse(localStorage.getItem('expStorage'))), access_token)
+        onDownload();
+        body.appendChild(br);
+        body.appendChild(btn);
     } else {
         alert('אנא מלא/י את כל הפרטים');
     }
