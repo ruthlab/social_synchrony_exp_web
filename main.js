@@ -144,7 +144,17 @@ function IRI(){
         var debrief = document.createElement("img");
         debrief.classList.add("w-75");
         debrief.src="debrief.png";
+        var paragraph2 = document.createElement("p");
+        var text2 = document.createTextNode(
+            "אנא העתיקו את הלינק לדפדפן כרום למעבר לניסוי הבא:\n" +
+            "\n" +
+            "https://idc.az1.qualtrics.com/jfe/form/SV_b7WsAN3BU3ChBYi")
+        //var text2 = document.createTextNode("result_"+date +".json");
+        paragraph2.classList.add("text-danger");
+        paragraph2.appendChild(text2);
+
         diver.appendChild(debrief);
+        diver.appendChild(paragraph2);
         body.appendChild(diver);
         var btn = document.createElement('button');
         var text = document.createTextNode("הורד תוצאות");
@@ -155,7 +165,6 @@ function IRI(){
         btn.setAttribute("onclick","onDownload();");
         var br = document.createElement('br');
         uploadFileExample("result "+Date.now().toString() +".json", "application/json", "1PWmDDeCRfEgn602o3mQjEDIJnDq8gZDn", JSON.stringify(JSON.parse(localStorage.getItem('expStorage'))), access_token)
-        onDownload();
         body.appendChild(br);
         body.appendChild(btn);
     } else {
