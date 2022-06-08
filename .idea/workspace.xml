@@ -20,10 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0ce3fee-586b-401b-bde4-908932d65ffa" name="Default Changelist" comment="fix bugs3">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/social_synchrony_exp_web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/social_synchrony_exp_web_HE.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sync/general_sync_instructions.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/sync/general_sync_instructions.pptx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +86,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.16.2" />
     <property name="javascript.nodejs.core.library.typings.version" value="12.20.45" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../social_synchrony_exp_web_EN" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/form.html" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -151,7 +148,9 @@
       <workItem from="1650096285615" duration="687000" />
       <workItem from="1651393692986" duration="1517000" />
       <workItem from="1651996404081" duration="1587000" />
-      <workItem from="1652357635162" duration="1944000" />
+      <workItem from="1652357635162" duration="4966000" />
+      <workItem from="1653980989746" duration="2511000" />
+      <workItem from="1654714754556" duration="964000" />
     </task>
     <task id="LOCAL‎00001" summary="start">
       <created>1640883037813</created>
@@ -369,7 +368,13 @@
       <option name="presentableId" value="LOCAL‎00036" />
       <updated>1650093812230</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL‎00037" summary="update link">
+      <created>1652787843900</created>
+      <option name="number" value="LOCAL‎00037" />
+      <option name="presentableId" value="LOCAL‎00037" />
+      <updated>1652787843900</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -389,7 +394,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="remove download" />
     <MESSAGE value="change pics and tags" />
     <MESSAGE value="change in slider" />
     <MESSAGE value="change data and remove birthdate" />
@@ -414,7 +418,8 @@
     <MESSAGE value="valence fix" />
     <MESSAGE value="Affect" />
     <MESSAGE value="fix bug and add buttons in sync" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix bug and add buttons in sync" />
+    <MESSAGE value="update link" />
+    <option name="LAST_COMMIT_MESSAGE" value="update link" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1644513530488">
@@ -454,13 +459,13 @@
       <screen x="0" y="0" width="1920" height="1034" />
     </state>
     <state width="1876" height="271" key="GridCell.Tab.0.right/-1920.0.1280.769/0.0.1920.1034@0.0.1920.1034" timestamp="1644764165064" />
-    <state x="617" y="276" key="Vcs.Push.Dialog.v2" timestamp="1650093813983">
-      <screen x="0" y="0" width="2048" height="1112" />
+    <state x="386" y="189" key="Vcs.Push.Dialog.v2" timestamp="1652800318324">
+      <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="578" y="257" key="Vcs.Push.Dialog.v2/-1920.0.1280.769/0.0.1920.1034@0.0.1920.1034" timestamp="1644587083719" />
     <state x="-1534" y="420" key="Vcs.Push.Dialog.v2/-1920.229.1280.767/0.0.2048.1112@-1920.229.1280.767" timestamp="1647280546363" />
     <state x="617" y="276" key="Vcs.Push.Dialog.v2/-1920.229.1280.767/0.0.2048.1112@0.0.2048.1112" timestamp="1650093813983" />
-    <state x="386" y="189" key="Vcs.Push.Dialog.v2/0.0.1280.760@0.0.1280.760" timestamp="1649685137759" />
+    <state x="386" y="189" key="Vcs.Push.Dialog.v2/0.0.1280.760@0.0.1280.760" timestamp="1652800318324" />
     <state x="829" y="464" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1647778522757">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>

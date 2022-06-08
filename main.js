@@ -5,7 +5,6 @@ document.addEventListener("DOMContentLoaded", function nothing(){
     b = document.createElement("script");
     b.src='https://apis.google.com/js/api.js';
     document.body.appendChild(b)
-    randomizer();
 })
 
 var access_token = '';
@@ -280,50 +279,45 @@ function loadVideo(type){
 }
 
 function firstDataTag(){
-    let type = getStorage("trail1");
     let con = true;
-    var startTime = Date.now();
-    document.getElementById('thevideo'+ type[0].toLowerCase()).addEventListener('ended',myHandler,false);
+    let type = getStorage("trail1");
+    var vid = document.getElementById('thevideo'+ type[0].toLowerCase());
+    vid.addEventListener('ended',myHandler,false);
     function myHandler(e) {
         con = false;
-
     }
     var interval = window.setInterval(function () {
         if (con){
             var sliderVal = Math.abs(document.getElementById('range'+ type[0].toLowerCase()).value);
-            var elapsedTime = Date.now() - startTime;
-            appendToInnerDict(type, {"time":(elapsedTime / 1000).toFixed(1), "rate": sliderVal});
+            appendToInnerDict(type, {"time":vid.currentTime.toFixed(1), "rate": sliderVal});
         }
         else {
-            window.clearInterval(interval);
             window.location = 'transition.html';
 
         }
-        } , 100);
+    }, 100);
 
 }
 
 
 function SecondDataTag(){
-    let type = getStorage("trail2");
     let con = true;
-    var startTime = Date.now();
-    document.getElementById('thevideo'+ type[0].toLowerCase()).addEventListener('ended',myHandler,false);
+    let type = getStorage("trail2");
+    var vid = document.getElementById('thevideo'+ type[0].toLowerCase());
+    vid.addEventListener('ended',myHandler,false);
     function myHandler(e) {
         con = false;
     }
     var interval = window.setInterval(function () {
         if (con){
             var sliderVal = Math.abs(document.getElementById('range'+ type[0].toLowerCase()).value);
-            var elapsedTime = Date.now() - startTime;
-            appendToInnerDict(type, {"time":(elapsedTime / 1000).toFixed(1), "rate": sliderVal});
-            // console.log((elapsedTime / 1000).toFixed(1) ,sliderVal);
+            appendToInnerDict(type, {"time":vid.currentTime.toFixed(1), "rate": sliderVal});
         }
         else {
-            window.clearInterval(interval);
             window.location = 'transition.html';
+
         }
-    } , 100);
+    }, 100);
 
 }
 
@@ -384,7 +378,7 @@ function download(content, fileName, contentType) {
 }
 
 function onDownload(){
-    download(JSON.stringify(JSON.parse(localStorage.getItem('expStorage'))), "result "+Date.now().toString() +".json", "text/plain");
+    download(JSON.stringify(JSON.parse(localStorage.getItem('expStorage'))), "v2_result "+Date.now().toString() +".json", "text/plain");
 }
 
 function playVidTrail() {
@@ -398,7 +392,6 @@ function playVidTrail() {
 
 function dataTagTrail(){
     let con = true;
-    var startTime = Date.now();
     document.getElementById('mighty').addEventListener('ended',myHandler,false);
     function myHandler(e) {
         con = false;
@@ -406,9 +399,7 @@ function dataTagTrail(){
     var interval = window.setInterval(function () {
         if (con){
             var sliderVal = Math.abs(document.getElementById('rangetr').value);
-            var elapsedTime = Date.now() - startTime;
-            appendToInnerDict('sheepwolf', {"time":(elapsedTime / 1000).toFixed(1), "rate": sliderVal});
-            // console.log((elapsedTime / 1000).toFixed(1) ,sliderVal);
+            appendToInnerDict('sheepwolf', {"time":document.getElementById('mighty').currentTime.toFixed(1), "rate": sliderVal});
         }
         else {
             window.clearInterval(interval);
