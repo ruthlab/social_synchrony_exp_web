@@ -144,11 +144,7 @@ function IRI(){
         debrief.classList.add("w-75");
         debrief.src="debrief.png";
         var paragraph2 = document.createElement("p");
-        var text2 = document.createTextNode(
-            "אנא העתיקו את הלינק לדפדפן כרום למעבר לניסוי הבא:\n" +
-            "\n" +
-            "https://idc.az1.qualtrics.com/jfe/form/SV_b7WsAN3BU3ChBYi")
-        //var text2 = document.createTextNode("result_"+date +".json");
+        var text2 = document.createTextNode("result_"+date +".json");
         paragraph2.classList.add("text-danger");
         paragraph2.appendChild(text2);
 
