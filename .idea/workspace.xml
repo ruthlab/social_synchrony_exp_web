@@ -21,7 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a0ce3fee-586b-401b-bde4-908932d65ffa" name="Default Changelist" comment="fix bugs3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trail.html" beforeDir="false" afterPath="$PROJECT_DIR$/trail.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -153,7 +152,7 @@
       <workItem from="1653980989746" duration="2511000" />
       <workItem from="1654714754556" duration="1743000" />
       <workItem from="1655291794476" duration="79000" />
-      <workItem from="1658377351890" duration="1549000" />
+      <workItem from="1658377351890" duration="1889000" />
     </task>
     <task id="LOCAL‎00001" summary="start">
       <created>1640883037813</created>
@@ -389,7 +388,13 @@
       <option name="presentableId" value="LOCAL‎00039" />
       <updated>1658379578357</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL‎00040" summary="preloading trail">
+      <created>1658380478068</created>
+      <option name="number" value="LOCAL‎00040" />
+      <option name="presentableId" value="LOCAL‎00040" />
+      <updated>1658380478068</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -409,7 +414,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="change data and remove birthdate" />
     <MESSAGE value="changes in transferring pages and in sheep wolf" />
     <MESSAGE value="upload id and sync and randomization" />
     <MESSAGE value="add id slides" />
@@ -434,17 +438,18 @@
     <MESSAGE value="update link" />
     <MESSAGE value="update like the EN version" />
     <MESSAGE value="preloading videos" />
-    <option name="LAST_COMMIT_MESSAGE" value="preloading videos" />
+    <MESSAGE value="preloading trail" />
+    <option name="LAST_COMMIT_MESSAGE" value="preloading trail" />
   </component>
   <component name="WindowStateProjectService">
     <state x="503" y="213" key="FileChooserDialogImpl" timestamp="1651576206169">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="503" y="213" key="FileChooserDialogImpl/0.0.1280.760@0.0.1280.760" timestamp="1651576206169" />
-    <state x="618" y="275" key="Vcs.Push.Dialog.v2" timestamp="1658379583805">
+    <state x="618" y="275" key="Vcs.Push.Dialog.v2" timestamp="1658380479688">
       <screen x="0" y="0" width="2048" height="1104" />
     </state>
-    <state x="618" y="275" key="Vcs.Push.Dialog.v2/-1920.229.1280.760/0.0.2048.1104@0.0.2048.1104" timestamp="1658379583805" />
+    <state x="618" y="275" key="Vcs.Push.Dialog.v2/-1920.229.1280.760/0.0.2048.1104@0.0.2048.1104" timestamp="1658380479688" />
     <state x="617" y="276" key="Vcs.Push.Dialog.v2/-1920.229.1280.767/0.0.2048.1112@0.0.2048.1112" timestamp="1650093813983" />
     <state x="386" y="189" key="Vcs.Push.Dialog.v2/0.0.1280.760@0.0.1280.760" timestamp="1652800318324" />
     <state x="734" y="289" width="579" height="534" key="find.popup" timestamp="1650092466827">
