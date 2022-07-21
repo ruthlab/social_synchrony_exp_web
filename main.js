@@ -414,7 +414,32 @@ function download(content, fileName, contentType) {
 function onDownload(){
     download(JSON.stringify(JSON.parse(localStorage.getItem('expStorage'))), "v2_result "+Date.now().toString() +".json", "text/plain");
 }
+function loadVideoTrail(){
+    var vid1 = document.getElementById('mighty')
+    var req = new XMLHttpRequest();
+    req.open('GET', "movies/mighty1.mp4", true);
+    req.responseType = 'blob';
 
+    req.onload = function() {
+        // Onload is triggered even on 404
+        // so we need to check the status code
+        if (this.status === 200) {
+            var loading = document.getElementById("loading");
+            loading.remove();
+            var videoBlob = this.response;
+            var vid = URL.createObjectURL(videoBlob); // IE10+
+            // Video is now downloaded
+            // and we can set it as source on the video element
+            vid1.src = vid;
+        }
+    }
+    req.onerror = function() {
+        // Error
+    }
+
+    req.send();
+
+}
 function playVidTrail() {
     var vid = document.getElementById('mighty');
     vid.play();
