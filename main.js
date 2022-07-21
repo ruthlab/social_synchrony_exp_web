@@ -257,20 +257,58 @@ function playVid(type) {
 }
 
 function loadVideo(type){
+
     if (getStorage("trail1") == type){
         var vid1 = document.getElementById('thevideo'+ getStorage("trail1")[0].toLowerCase())
-        var source1 = document.createElement("source");
-        source1.setAttribute("src","movies/" + getStorage("movie1") + ".mp4" )
-        source1.setAttribute("type", "video/mp4")
-        vid1.appendChild(source1);
+        var req = new XMLHttpRequest();
+        req.open('GET', "movies/" +getStorage("movie1") + ".mp4", true);
+        req.responseType = 'blob';
+
+        req.onload = function() {
+            // Onload is triggered even on 404
+            // so we need to check the status code
+            if (this.status === 200) {
+                var loading = document.getElementById("loading");
+                loading.remove();
+                var videoBlob = this.response;
+                var vid = URL.createObjectURL(videoBlob); // IE10+
+                // Video is now downloaded
+                // and we can set it as source on the video element
+                vid1.src = vid;
+            }
+        }
+        req.onerror = function() {
+            // Error
+        }
+
+        req.send();
 
     }
     else{
         var vid2 = document.getElementById('thevideo'+ getStorage("trail2")[0].toLowerCase())
-        var source2 = document.createElement("source");
-        source2.setAttribute("src", "movies/" + getStorage("movie2") + ".mp4" )
-        source2.setAttribute("type", "video/mp4")
-        vid2.appendChild(source2);
+        var req = new XMLHttpRequest();
+        req.open('GET', "movies/" +getStorage("movie2") + ".mp4", true);
+        req.responseType = 'blob';
+
+        req.onload = function() {
+            // Onload is triggered even on 404
+            // so we need to check the status code
+            if (this.status === 200) {
+                var loading = document.getElementById("loading");
+                loading.remove();
+                var videoBlob = this.response;
+                var vid = URL.createObjectURL(videoBlob); // IE10+
+                // Video is now downloaded
+                // and we can set it as source on the video element
+                vid2.src = vid;
+            }
+        }
+        req.onerror = function() {
+            // Error
+        }
+
+        req.send();
+
     }
 }
 
